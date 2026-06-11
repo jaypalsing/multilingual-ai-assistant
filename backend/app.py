@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from backend.nlu import predict_intent
+
 from backend.service_search import (
     detect_category,
     get_services_by_category,
@@ -11,7 +12,22 @@ from backend.service_search import (
     format_service_details,
 )
 
-app = FastAPI(title="ML BB ChatBot API")
+# =========================================================
+# FASTAPI INITIALIZATION
+# =========================================================
+
+app = FastAPI(
+    title="MultiLinguaAI API",
+    version="1.0.0",
+    description="""
+    AI-Powered Multilingual Conversational Assistant
+    using NLP, Machine Learning, and FastAPI.
+    """
+)
+
+# =========================================================
+# CORS CONFIGURATION
+# =========================================================
 
 app.add_middleware(
     CORSMiddleware,
@@ -21,37 +37,68 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# =========================================================
+# CONVERSATION MEMORY
+# =========================================================
 
-# Conversation memory
 conversation_memory = {
     "last_services": []
 }
 
+# =========================================================
+# REQUEST MODEL
+# =========================================================
 
 class ChatRequest(BaseModel):
     message: str
 
+# =========================================================
+# LANGUAGE DETECTION
+# =========================================================
 
 def detect_language(text: str) -> str:
+
     text = text.strip()
 
     if not text:
         return "Unknown"
 
+    # =====================================================
+    # ENGLISH DETECTION
+    # =====================================================
+
     if any(ch.isalpha() and ch.isascii() for ch in text):
         return "English"
 
+    # =====================================================
+    # MARATHI WORDS
+    # =====================================================
+
     marathi_words = [
-        "नमस्कार", "काय", "तुम्ही", "मला", "मदत", "हॅलो", "मी",
-        "शाळा", "बँक", "रुग्णालय", "हॉटेल", "पोलीस", "फार्मसी"
-    ]
-    hindi_words = [
-        "नमस्ते", "क्या", "आप", "मुझे", "मदद", "हेलो", "मैं",
-        "अस्पताल", "स्कूल", "बैंक", "होटल", "पुलिस", "फार्मेसी"
+        "नमस्कार", "काय", "तुम्ही", "मला",
+        "मदत", "हॅलो", "मी", "शाळा",
+        "बँक", "रुग्णालय", "हॉटेल",
+        "पोलीस", "फार्मसी"
     ]
 
-    marathi_score = sum(1 for word in marathi_words if word in text)
-    hindi_score = sum(1 for word in hindi_words if word in text)
+    # =====================================================
+    # HINDI WORDS
+    # =====================================================
+
+    hindi_words = [
+        "नमस्ते", "क्या", "आप", "मुझे",
+        "मदद", "हेलो", "मैं", "अस्पताल",
+        "स्कूल", "बैंक", "होटल",
+        "पुलिस", "फार्मेसी"
+    ]
+
+    marathi_score = sum(
+        1 for word in marathi_words if word in text
+    )
+
+    hindi_score = sum(
+        1 for word in hindi_words if word in text
+    )
 
     if marathi_score > hindi_score and marathi_score > 0:
         return "Marathi"
@@ -64,93 +111,267 @@ def detect_language(text: str) -> str:
 
     return "Unknown"
 
+# =========================================================
+# NUMBER REFERENCE DETECTION
+# =========================================================
 
 def detect_number_reference(text: str):
+
     text = text.lower().strip()
 
-    if "first" in text or "1" in text or "पहिला" in text or "पहले" in text:
+    if (
+        "first" in text or
+        "1" in text or
+        "पहिला" in text or
+        "पहले" in text
+    ):
         return 0
-    if "second" in text or "2" in text or "दुसरा" in text or "दूसरा" in text:
+
+    if (
+        "second" in text or
+        "2" in text or
+        "दुसरा" in text or
+        "दूसरा" in text
+    ):
         return 1
-    if "third" in text or "3" in text or "तिसरा" in text or "तीसरा" in text:
+
+    if (
+        "third" in text or
+        "3" in text or
+        "तिसरा" in text or
+        "तीसरा" in text
+    ):
         return 2
 
     return None
 
+# =========================================================
+# RESPONSE GENERATION
+# =========================================================
 
 def generate_reply(language: str, intent: str) -> str:
+
     replies = {
+
+        # =================================================
+        # GREETING
+        # =================================================
+
         "greeting": {
-            "English": "Hello! Welcome to ML BB ChatBot.",
-            "Hindi": "नमस्ते! ML BB ChatBot में आपका स्वागत है।",
-            "Marathi": "नमस्कार! ML BB ChatBot मध्ये तुमचे स्वागत आहे.",
-            "Hindi/Marathi": "नमस्ते / नमस्कार! ML BB ChatBot मध्ये आपले स्वागत आहे."
+
+            "English":
+                "Hello! Welcome to MultiLinguaAI.",
+
+            "Hindi":
+                "नमस्ते! MultiLinguaAI में आपका स्वागत है।",
+
+            "Marathi":
+                "नमस्कार! MultiLinguaAI मध्ये तुमचे स्वागत आहे.",
+
+            "Hindi/Marathi":
+                "नमस्ते / नमस्कार! MultiLinguaAI मध्ये आपले स्वागत आहे।"
         },
+
+        # =================================================
+        # THANKS
+        # =================================================
+
         "thanks": {
-            "English": "Thank you! I am here to help you.",
-            "Hindi": "धन्यवाद! मैं आपकी मदद के लिए यहाँ हूँ।",
-            "Marathi": "धन्यवाद! मी तुमच्या मदतीसाठी येथे आहे.",
-            "Hindi/Marathi": "धन्यवाद! मी / मैं आपकी मदद के लिए यहाँ हूँ।"
+
+            "English":
+                "Thank you! I am here to help you.",
+
+            "Hindi":
+                "धन्यवाद! मैं आपकी मदद के लिए यहाँ हूँ।",
+
+            "Marathi":
+                "धन्यवाद! मी तुमच्या मदतीसाठी येथे आहे.",
+
+            "Hindi/Marathi":
+                "धन्यवाद! मी / मैं आपकी मदद के लिए यहाँ हूँ।"
         },
+
+        # =================================================
+        # GOODBYE
+        # =================================================
+
         "goodbye": {
-            "English": "Goodbye! See you again.",
-            "Hindi": "धन्यवाद! फिर मिलते हैं।",
-            "Marathi": "धन्यवाद! पुन्हा भेटूया.",
-            "Hindi/Marathi": "धन्यवाद! फिर मिलते हैं / पुन्हा भेटूया."
+
+            "English":
+                "Goodbye! See you again.",
+
+            "Hindi":
+                "धन्यवाद! फिर मिलते हैं।",
+
+            "Marathi":
+                "धन्यवाद! पुन्हा भेटूया.",
+
+            "Hindi/Marathi":
+                "धन्यवाद! फिर मिलते हैं / पुन्हा भेटूया।"
         },
+
+        # =================================================
+        # HELP
+        # =================================================
+
         "help": {
-            "English": "Yes, I can help you. Please tell me your query.",
-            "Hindi": "हाँ, मैं आपकी मदद कर सकता हूँ। कृपया अपना प्रश्न बताइए।",
-            "Marathi": "हो, मी तुमची मदत करू शकतो. कृपया तुमचा प्रश्न सांगा.",
-            "Hindi/Marathi": "हो / हाँ, कृपया तुमचा / अपना प्रश्न सांगा।"
+
+            "English":
+                "Yes, I can help you. Please tell me your query.",
+
+            "Hindi":
+                "हाँ, मैं आपकी मदद कर सकता हूँ। कृपया अपना प्रश्न बताइए।",
+
+            "Marathi":
+                "हो, मी तुमची मदत करू शकतो. कृपया तुमचा प्रश्न सांगा.",
+
+            "Hindi/Marathi":
+                "हो / हाँ, कृपया तुमचा / अपना प्रश्न सांगा।"
         },
+
+        # =================================================
+        # CHATBOT INFO
+        # =================================================
+
         "chatbot_info": {
-            "English": "I am a multilingual AI chatbot.",
-            "Hindi": "मैं एक बहुभाषिक AI चैटबॉट हूँ।",
-            "Marathi": "मी एक बहुभाषिक AI चॅटबॉट आहे.",
-            "Hindi/Marathi": "मी / मैं एक बहुभाषिक AI chatbot आहे / हूँ।"
+
+            "English":
+                "I am MultiLinguaAI, a multilingual AI-powered virtual assistant.",
+
+            "Hindi":
+                "मैं MultiLinguaAI हूँ, एक बहुभाषिक AI वर्चुअल असिस्टेंट।",
+
+            "Marathi":
+                "मी MultiLinguaAI आहे, एक बहुभाषिक AI व्हर्च्युअल सहाय्यक.",
+
+            "Hindi/Marathi":
+                "मी / मैं MultiLinguaAI आहे / हूँ।"
         },
+
+        # =================================================
+        # PERSONAL ASSISTANT
+        # =================================================
+
         "personal_assistant": {
-            "English": "I can work as your text-based personal assistant.",
-            "Hindi": "मैं आपके टेक्स्ट-आधारित पर्सनल असिस्टेंट के रूप में काम कर सकता हूँ।",
-            "Marathi": "मी तुमचा टेक्स्ट-आधारित वैयक्तिक सहाय्यक म्हणून काम करू शकतो.",
-            "Hindi/Marathi": "मी / मैं तुमचा / आपका text-based personal assistant आहे / हूँ।"
+
+            "English":
+                "I can work as your AI-powered personal assistant.",
+
+            "Hindi":
+                "मैं आपके AI आधारित पर्सनल असिस्टेंट के रूप में काम कर सकता हूँ।",
+
+            "Marathi":
+                "मी तुमचा AI आधारित वैयक्तिक सहाय्यक म्हणून काम करू शकतो.",
+
+            "Hindi/Marathi":
+                "मी / मैं तुमचा / आपका AI personal assistant आहे / हूँ।"
         },
+
+        # =================================================
+        # SEARCH SERVICE
+        # =================================================
+
         "search_service": {
-            "English": "Please tell me which service you need, like hospital, school, bank, police station, hotel, or pharmacy.",
-            "Hindi": "कृपया बताइए आपको कौन सी सेवा चाहिए, जैसे अस्पताल, स्कूल, बैंक, पुलिस स्टेशन, होटल या फार्मेसी।",
-            "Marathi": "कृपया सांगा तुम्हाला कोणती सेवा हवी आहे, जसे हॉस्पिटल, शाळा, बँक, पोलीस स्टेशन, हॉटेल किंवा फार्मसी.",
-            "Hindi/Marathi": "कृपया सांगा / बताइए तुम्हाला / आपको कोणती / कौन सी सेवा हवी आहे / चाहिए।"
+
+            "English":
+                "Please tell me which service you need like hospital, school, bank, hotel, pharmacy, or police station.",
+
+            "Hindi":
+                "कृपया बताइए आपको कौन सी सेवा चाहिए जैसे अस्पताल, स्कूल, बैंक, होटल, फार्मेसी या पुलिस स्टेशन।",
+
+            "Marathi":
+                "कृपया सांगा तुम्हाला कोणती सेवा हवी आहे जसे हॉस्पिटल, शाळा, बँक, हॉटेल, फार्मसी किंवा पोलीस स्टेशन.",
+
+            "Hindi/Marathi":
+                "कृपया सांगा / बताइए तुम्हाला / आपको कोणती / कौन सी सेवा हवी आहे / चाहिए।"
         },
+
+        # =================================================
+        # SERVICE DETAILS
+        # =================================================
+
         "service_details": {
-            "English": "Please tell me the name of the place whose details you want.",
-            "Hindi": "कृपया उस स्थान का नाम बताइए जिसकी जानकारी चाहिए।",
-            "Marathi": "कृपया ज्या ठिकाणाची माहिती हवी आहे त्याचे नाव सांगा.",
-            "Hindi/Marathi": "कृपया नाव / नाम सांगा / बताइए."
-        },
+
+            "English":
+                "Please tell me the service name whose details you need.",
+
+            "Hindi":
+                "कृपया उस सेवा का नाम बताइए जिसकी जानकारी चाहिए।",
+
+            "Marathi":
+                "कृपया ज्या सेवेची माहिती हवी आहे त्याचे नाव सांगा.",
+
+            "Hindi/Marathi":
+                "कृपया नाव / नाम सांगा / बताइए।"
+        }
     }
 
     if intent in replies:
-        return replies[intent].get(language, replies[intent]["English"])
+        return replies[intent].get(
+            language,
+            replies[intent]["English"]
+        )
 
-    return "I understood your message. More advanced response generation will be added next."
+    return (
+        "I understood your message. "
+        "Advanced AI response generation "
+        "will be added soon."
+    )
 
+# =========================================================
+# ROOT API
+# =========================================================
 
-@app.get("/")
+@app.get("/", tags=["System"])
+
 def home():
-    return {"message": "ML BB ChatBot API is running"}
 
+    return {
+        "message": "MultiLinguaAI API is running successfully",
+        "status": "active",
+        "version": "1.0.0"
+    }
 
-@app.post("/chat")
+# =========================================================
+# HEALTH CHECK API
+# =========================================================
+
+@app.get("/health", tags=["System"])
+
+def health_check():
+
+    return {
+        "status": "healthy",
+        "application": "MultiLinguaAI",
+        "version": "1.0.0"
+    }
+
+# =========================================================
+# CHAT API
+# =========================================================
+
+@app.post("/chat", tags=["Chat"])
+
 def chat(request: ChatRequest):
+
     message = request.message.strip()
 
     try:
+
+        # =================================================
+        # DETECT LANGUAGE
+        # =================================================
+
         language = detect_language(message)
 
-        # 1. Direct service name match
+        # =================================================
+        # DIRECT SERVICE NAME MATCH
+        # =================================================
+
         matched_service = get_service_by_name(message)
+
         if matched_service:
+
             return {
                 "message": message,
                 "language": language,
@@ -159,27 +380,48 @@ def chat(request: ChatRequest):
                 "reply": format_service_details(matched_service)
             }
 
-        # 2. Conversation memory: first / second / third one
-        ref_index = detect_number_reference(message)
-        if ref_index is not None:
-            last_services = conversation_memory.get("last_services", [])
+        # =================================================
+        # MEMORY REFERENCE
+        # =================================================
 
-            if last_services and ref_index < len(last_services):
+        ref_index = detect_number_reference(message)
+
+        if ref_index is not None:
+
+            last_services = conversation_memory.get(
+                "last_services",
+                []
+            )
+
+            if (
+                last_services and
+                ref_index < len(last_services)
+            ):
+
                 selected_service = last_services[ref_index]
+
                 return {
                     "message": message,
                     "language": language,
                     "intent": "service_details",
                     "confidence": 0.96,
-                    "reply": format_service_details(selected_service)
+                    "reply": format_service_details(
+                        selected_service
+                    )
                 }
 
-        # 3. Category-based service search
-        matched_category = detect_category(message)
-        if matched_category:
-            services = get_services_by_category(matched_category)
+        # =================================================
+        # CATEGORY SEARCH
+        # =================================================
 
-            # Store service list in memory
+        matched_category = detect_category(message)
+
+        if matched_category:
+
+            services = get_services_by_category(
+                matched_category
+            )
+
             conversation_memory["last_services"] = services
 
             return {
@@ -187,26 +429,41 @@ def chat(request: ChatRequest):
                 "language": language,
                 "intent": "search_service",
                 "confidence": 0.93,
-                "reply": format_service_list(matched_category, services)
+                "reply": format_service_list(
+                    matched_category,
+                    services
+                )
             }
 
-        # 4. ML model fallback
+        # =================================================
+        # ML MODEL PREDICTION
+        # =================================================
+
         intent, confidence = predict_intent(message)
+
         reply = generate_reply(language, intent)
 
-        # Lower confidence threshold to avoid rejecting simple greetings
+        # =================================================
+        # LOW CONFIDENCE HANDLING
+        # =================================================
+
         if confidence < 0.25:
+
             return {
                 "message": message,
                 "language": language,
                 "intent": "unknown",
                 "confidence": round(confidence, 2),
                 "reply": (
-                    "Sorry, I could not clearly understand your request. "
-                    "You can ask about hospital, school, bank, police station, hotel, pharmacy, "
-                    "or general chatbot help."
+                    "Sorry, I could not understand your request clearly. "
+                    "Please ask about hospitals, schools, banks, hotels, "
+                    "pharmacies, police stations, or chatbot assistance."
                 )
             }
+
+        # =================================================
+        # SUCCESS RESPONSE
+        # =================================================
 
         return {
             "message": message,
@@ -217,6 +474,7 @@ def chat(request: ChatRequest):
         }
 
     except Exception as e:
+
         return {
             "message": message,
             "language": "Error",
@@ -224,3 +482,4 @@ def chat(request: ChatRequest):
             "confidence": 0.0,
             "reply": f"Backend error: {str(e)}"
         }
+ 

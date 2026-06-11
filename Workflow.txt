@@ -1,6 +1,7 @@
 
 
-PhDChatBot/
+
+Multilingual AI Assistant/
 │
 ├── backend/
 │   ├── app.py
@@ -47,22 +48,41 @@ Train Datasets :
     
 
 
+Project Work Flow - 
+
+        User
+        ↓
+        Frontend (HTML/CSS/JS)
+        ↓
+        FastAPI Backend
+        ↓
+        Language Detection
+        ↓
+        Service Search
+        ↓
+        NLP Intent Prediction
+        ↓
+        Response Generation
+        ↓
+        JSON Response
+        ↓
+        Frontend Chat UI
 
 
 
-PhDChatBot/
-├── backend/
-│   ├── app.py
-│   ├── nlu.py
-│   ├── train_intent_model.py
-│   └── requirements.txt
-├── data/
-│   └── intents_dataset.csv
-├── models/
-│   ├── intent_model.pkl
-│   ├── vectorizer.pkl
-│   └── label_encoder.pkl
-└── frontend/
+        Current AI Features
+
+            ✅ Multilingual Support
+            ✅ Intent Classification
+            ✅ NLP Prediction
+            ✅ Confidence Score
+            ✅ Service Search
+            ✅ Memory Reference
+            ✅ FastAPI API
+            ✅ Modern UI
+
+
+ 
 
 Create Database [ intents_dataset.csv]
 
