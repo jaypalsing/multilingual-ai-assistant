@@ -1,56 +1,308 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ML BB ChatBot Popup</title>
-  <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>
+        🌍 Multilingual AI Assistant
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
 </head>
+
 <body>
 
-  <!-- Floating Chat Button -->
-  <button id="chat-toggle" class="chat-toggle-btn">💬</button>
+    <!-- ========================================= -->
+    <!-- MAIN CONTAINER -->
+    <!-- ========================================= -->
 
-  <!-- Chat Popup -->
-  <div id="chat-popup" class="chat-popup hidden">
+    <div class="main-container">
 
-    <!-- Header -->
-    <div class="chat-header">
-      <div>
-        <h3>ML BB ChatBot</h3>
-        <p>Marathi | Hindi | English Assistant</p>
-      </div>
-      <button id="close-chat" class="close-btn">&times;</button>
+        <!-- ========================================= -->
+        <!-- HERO SECTION -->
+        <!-- ========================================= -->
+
+        <div class="hero-section">
+
+            <!-- ========================================= -->
+            <!-- PROFILE SECTION -->
+            <!-- ========================================= -->
+
+            <div class="profile-section">
+
+                <!-- PROFILE IMAGE -->
+
+                <div class="profile-image-wrapper">
+
+                    <img
+                        src="../profile/2.jpg"
+                        alt="Dr. Jaypalsing N. Kayte"
+                        class="profile-image"
+                    />
+
+                </div>
+
+                <!-- PROFILE DETAILS -->
+
+                <div class="profile-details">
+
+                    <h2>
+                        Dr. Jaypalsing N. Kayte
+                    </h2>
+
+                    <p class="designation">
+                        PhD in Computer Science
+                    </p>
+
+                    <div class="profile-tags">
+
+                        <span>
+                            👨‍💻 AI Researcher
+                        </span>
+
+                        <span>
+                            🚀 Developer
+                        </span>
+
+                        <span>
+                            🎓 Educator
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ========================================= -->
+            <!-- MAIN TITLE -->
+            <!-- ========================================= -->
+
+            <h1 class="main-title">
+
+                <span class="hero-icon">
+                    🌍
+                </span>
+
+                Multilingual AI Assistant
+
+            </h1>
+
+            <!-- ========================================= -->
+            <!-- DESCRIPTION -->
+            <!-- ========================================= -->
+
+            <p class="hero-description">
+
+                AI-Powered Conversational Assistant using
+                NLP, Machine Learning, and FastAPI.
+
+                Supporting Marathi, Hindi, and English
+                intelligent communication systems.
+
+            </p>
+
+            <!-- ========================================= -->
+            <!-- FEATURE TAGS -->
+            <!-- ========================================= -->
+
+            <div class="feature-tags">
+
+                <span>
+                    🤖 AI ChatBot
+                </span>
+
+                <span>
+                    🌐 Multilingual
+                </span>
+
+                <span>
+                    🧠 NLP
+                </span>
+
+                <span>
+                    ⚡ FastAPI
+                </span>
+
+                <span>
+                    📊 Machine Learning
+                </span>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <!-- Info Panel -->
-    <div class="chat-info">
-      <span id="lang">Language : -</span>
-      <span id="intent">Intent : -</span>
-      <span id="confidence">Confidence : -</span>
+    <!-- ========================================= -->
+    <!-- FLOATING CHAT BUTTON -->
+    <!-- ========================================= -->
+
+    <button
+        id="chat-toggle"
+        class="chat-toggle-btn"
+    >
+        💬
+    </button>
+
+    <!-- ========================================= -->
+    <!-- CHAT POPUP -->
+    <!-- ========================================= -->
+
+    <div
+        id="chat-popup"
+        class="chat-popup hidden"
+    >
+
+        <!-- ========================================= -->
+        <!-- CHAT HEADER -->
+        <!-- ========================================= -->
+
+        <div class="chat-header">
+
+            <div class="header-content">
+
+                <h3>
+                    🌍 Multilingual AI Assistant
+                </h3>
+
+                <p>
+                    Marathi | Hindi | English NLP Assistant
+                </p>
+
+            </div>
+
+            <button
+                id="close-chat"
+                class="close-btn"
+            >
+                &times;
+            </button>
+
+        </div>
+
+        <!-- ========================================= -->
+        <!-- INFO PANEL -->
+        <!-- ========================================= -->
+
+        <div class="chat-info">
+
+            <div class="info-box">
+
+                <span class="label">
+                    🌐 Language
+                </span>
+
+                <span id="lang">
+                    -
+                </span>
+
+            </div>
+
+            <div class="info-box">
+
+                <span class="label">
+                    🎯 Intent
+                </span>
+
+                <span id="intent">
+                    -
+                </span>
+
+            </div>
+
+            <div class="info-box">
+
+                <span class="label">
+                    📊 Confidence
+                </span>
+
+                <span id="confidence">
+                    -
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- ========================================= -->
+        <!-- CHAT BODY -->
+        <!-- ========================================= -->
+
+        <div
+            id="chat-body"
+            class="chat-body"
+        >
+
+            <!-- Dynamic Messages -->
+
+        </div>
+
+        <!-- ========================================= -->
+        <!-- FOOTER -->
+        <!-- ========================================= -->
+
+        <div class="chat-footer">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Type your message here..."
+                autocomplete="off"
+            />
+
+            <!-- BUTTONS -->
+
+            <div class="chat-actions">
+
+                <button id="send-btn">
+                    🚀 Send
+                </button>
+
+                <button
+                    id="clear-btn"
+                    class="clear-btn"
+                >
+                    🗑 Clear
+                </button>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <!-- Chat Body -->
-    <div id="chat-body" class="chat-body">
-      <!-- Initial messages will load from JS -->
-    </div>
+    <!-- ========================================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================================= -->
 
-    <!-- Footer -->
-    <div class="chat-footer">
-      <input
-        type="text"
-        id="user-input"
-        placeholder="Type your message..."
-        autocomplete="off"
-      />
-      <div class="chat-actions">
-        <button id="send-btn">Send</button>
-        <button id="clear-btn" class="clear-btn">Clear</button>
-      </div>
-    </div>
+    <script src="script.js"></script>
 
-  </div>
-
-  <script src="script.js"></script>
 </body>
+
 </html>
+ 
