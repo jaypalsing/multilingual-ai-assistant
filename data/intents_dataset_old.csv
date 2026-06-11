@@ -1,0 +1,117 @@
+text,intent,language
+hello,greeting,english
+hi,greeting,english
+hey,greeting,english
+good morning,greeting,english
+good evening,greeting,english
+thank you,thanks,english
+thanks,thanks,english
+many thanks,thanks,english
+bye,goodbye,english
+goodbye,goodbye,english
+see you,goodbye,english
+help me,help,english
+i need help,help,english
+can you help me,help,english
+who are you,chatbot_info,english
+what is your name,chatbot_info,english
+are you a chatbot,chatbot_info,english
+set reminder,personal_assistant,english
+open notes,personal_assistant,english
+tell me today task,personal_assistant,english
+
+नमस्ते,greeting,hindi
+हेलो,greeting,hindi
+सुप्रभात,greeting,hindi
+शुभ संध्या,greeting,hindi
+धन्यवाद,thanks,hindi
+बहुत धन्यवाद,thanks,hindi
+शुक्रिया,thanks,hindi
+अलविदा,goodbye,hindi
+फिर मिलेंगे,goodbye,hindi
+बाय,goodbye,hindi
+मदद करो,help,hindi
+मुझे मदद चाहिए,help,hindi
+क्या आप मेरी मदद कर सकते हैं,help,hindi
+आप कौन हैं,chatbot_info,hindi
+तुम्हारा नाम क्या है,chatbot_info,hindi
+क्या आप चैटबॉट हो,chatbot_info,hindi
+रिमाइंडर सेट करो,personal_assistant,hindi
+नोट्स खोलो,personal_assistant,hindi
+आज का काम बताओ,personal_assistant,hindi
+
+नमस्कार,greeting,marathi
+हॅलो,greeting,marathi
+शुभ सकाळ,greeting,marathi
+शुभ संध्याकाळ,greeting,marathi
+धन्यवाद,thanks,marathi
+खूप धन्यवाद,thanks,marathi
+मनापासून धन्यवाद,thanks,marathi
+पुन्हा भेटू,goodbye,marathi
+निघतो,goodbye,marathi
+बाय,goodbye,marathi
+मदत करा,help,marathi
+मला मदत हवी आहे,help,marathi
+तू मला मदत करू शकतोस का,help,marathi
+तू कोण आहेस,chatbot_info,marathi
+तुझे नाव काय आहे,chatbot_info,marathi
+तू चॅटबॉट आहेस का,chatbot_info,marathi
+रिमाइंडर लाव,personal_assistant,marathi
+नोट्स उघड,personal_assistant,marathi
+आजचे काम सांग,personal_assistant,marathi
+
+show hospital list,search_service,english
+can you share hospital list,search_service,english
+nearest hospital,search_service,english
+show schools,search_service,english
+school list,search_service,english
+show banks,search_service,english
+bank near me,search_service,english
+show police station,search_service,english
+hotel list,search_service,english
+find pharmacy,search_service,english
+
+अस्पताल सूची दिखाओ,search_service,hindi
+मुझे अस्पताल की सूची चाहिए,search_service,hindi
+स्कूल की सूची दिखाओ,search_service,hindi
+बैंक की जानकारी दो,search_service,hindi
+पास का पुलिस स्टेशन बताओ,search_service,hindi
+होटल की सूची दिखाओ,search_service,hindi
+फार्मेसी बताओ,search_service,hindi
+
+रुग्णालय यादी दाखवा,search_service,marathi
+मला हॉस्पिटलची यादी हवी आहे,search_service,marathi
+शाळांची यादी दाखवा,search_service,marathi
+बँक माहिती द्या,search_service,marathi
+जवळचे पोलीस स्टेशन सांगा,search_service,marathi
+हॉटेल यादी दाखवा,search_service,marathi
+फार्मसी दाखवा,search_service,marathi
+
+address of city care hospital,service_details,english
+phone number of sunrise multispeciality hospital,service_details,english
+location of apollo pharmacy,service_details,english
+city care hospital address,service_details,english
+
+सिटी केयर हॉस्पिटल का पता,service_details,hindi
+अपोलो फार्मेसी का लोकेशन,service_details,hindi
+सनराइज हॉस्पिटल का फोन नंबर,service_details,hindi
+
+सिटी केअर हॉस्पिटलचा पत्ता,service_details,marathi
+अपोलो फार्मसीचे लोकेशन,service_details,marathi
+सनराइज हॉस्पिटलचा फोन नंबर,service_details,marathi
+
+hi,greeting,english
+hello,greeting,english
+hey,greeting,english
+good morning,greeting,english
+good evening,greeting,english
+how are you,greeting,english
+hello chatbot,greeting,english
+
+नमस्ते,greeting,hindi
+हेलो,greeting,hindi
+कैसे हो,greeting,hindi
+
+नमस्कार,greeting,marathi
+हॅलो,greeting,marathi
+कसे आहात,greeting,marathi

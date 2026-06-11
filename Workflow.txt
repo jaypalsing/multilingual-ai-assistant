@@ -1,0 +1,104 @@
+
+
+PhDChatBot/
+│
+├── backend/
+│   ├── app.py
+│   ├── config.py
+│   ├── language_detector.py
+│   ├── nlu.py
+│   ├── dialogue.py
+│   └── utils.py
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── data/
+│   ├── intents/
+│   └── logs/
+│
+├── models/
+│
+├── database/
+│
+├── requirements.txt
+└── README.md
+pip install -r requirements.txt
+
+
+
+How to Run Project ? 
+
+First you update intents_dataset.csv file than run this commands [ python backend/train_intent_model.py ] *** train your model as per this data
+second 
+
+Run this commands :
+
+    uvicorn backend.app:app --reload
+    Uvicorn running on http://127.0.0.1:8000
+
+Open browser and open this page inside as per path [ file:///D:/PhD_BB/PhDChatBot/frontend/index.html] 
+
+
+Train Datasets :
+
+    
+
+
+
+
+
+PhDChatBot/
+├── backend/
+│   ├── app.py
+│   ├── nlu.py
+│   ├── train_intent_model.py
+│   └── requirements.txt
+├── data/
+│   └── intents_dataset.csv
+├── models/
+│   ├── intent_model.pkl
+│   ├── vectorizer.pkl
+│   └── label_encoder.pkl
+└── frontend/
+
+Create Database [ intents_dataset.csv]
+
+python backend/train_intent_model.py
+
+
+
+    Work Steps :
+
+    Step 1: Create dataset
+
+        Create training data for:
+
+                English
+                Hindi
+                Marathi
+
+        Intent classes like:
+
+                greeting
+                thanks
+                goodbye
+                help
+                chatbot_info
+                personal_assistant
+                general_query
+
+    Step 2: Train model
+            Use:
+
+                TfidfVectorizer
+                LogisticRegression
+           
+    Step 3: Save model files
+
+        We will save:
+            intent_model.pkl
+            vectorizer.pkl
+            label_encoder.pkl

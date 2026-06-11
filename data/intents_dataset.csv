@@ -1,0 +1,1756 @@
+﻿text,intent,language
+hello,greeting,english
+hello chatbot,greeting,english
+hello assistant,greeting,english
+hello friend,greeting,english
+hello there,greeting,english
+hi,greeting,english
+hi chatbot,greeting,english
+hi assistant,greeting,english
+hi friend,greeting,english
+hi there,greeting,english
+hey,greeting,english
+hey chatbot,greeting,english
+hey assistant,greeting,english
+hey friend,greeting,english
+hey there,greeting,english
+good morning,greeting,english
+good morning chatbot,greeting,english
+good morning assistant,greeting,english
+good morning friend,greeting,english
+good morning there,greeting,english
+good evening,greeting,english
+good evening chatbot,greeting,english
+good evening assistant,greeting,english
+good evening friend,greeting,english
+good evening there,greeting,english
+good afternoon,greeting,english
+good afternoon chatbot,greeting,english
+good afternoon assistant,greeting,english
+good afternoon friend,greeting,english
+good afternoon there,greeting,english
+how are you,greeting,english
+how are you doing,greeting,english
+how is it going,greeting,english
+are you there,greeting,english
+hello can you hear me,greeting,english
+hi there assistant,greeting,english
+hello my friend,greeting,english
+hi can you help,greeting,english
+hey are you online,greeting,english
+hello support bot,greeting,english
+thank you,thanks,english
+thanks,thanks,english
+many thanks,thanks,english
+thanks a lot,thanks,english
+thank you so much,thanks,english
+thanks for your help,thanks,english
+appreciate it,thanks,english
+thank you chatbot,thanks,english
+thanks assistant,thanks,english
+many many thanks,thanks,english
+thanks for the information,thanks,english
+thank you for the support,thanks,english
+thanks for guiding me,thanks,english
+thanks for sharing details,thanks,english
+bye,goodbye,english
+goodbye,goodbye,english
+see you,goodbye,english
+see you later,goodbye,english
+talk to you later,goodbye,english
+bye for now,goodbye,english
+good night,goodbye,english
+catch you later,goodbye,english
+okay bye,goodbye,english
+thanks bye,goodbye,english
+see you again,goodbye,english
+goodbye assistant,goodbye,english
+bye chatbot,goodbye,english
+help me,help,english
+i need help,help,english
+can you help me,help,english
+please help me,help,english
+i need your help,help,english
+can you guide me,help,english
+i need support,help,english
+please assist me,help,english
+help me with my query,help,english
+i want some help,help,english
+could you help me,help,english
+can you support me,help,english
+please guide me,help,english
+i need assistance now,help,english
+who are you,chatbot_info,english
+what is your name,chatbot_info,english
+are you a chatbot,chatbot_info,english
+what can you do,chatbot_info,english
+tell me about yourself,chatbot_info,english
+are you an ai chatbot,chatbot_info,english
+what is this chatbot,chatbot_info,english
+who created you,chatbot_info,english
+what kind of assistant are you,chatbot_info,english
+introduce yourself,chatbot_info,english
+what services do you provide,chatbot_info,english
+what are your features,chatbot_info,english
+are you multilingual,chatbot_info,english
+set reminder,personal_assistant,english
+open notes,personal_assistant,english
+tell me today task,personal_assistant,english
+create a reminder,personal_assistant,english
+show my notes,personal_assistant,english
+what is my task today,personal_assistant,english
+add a reminder,personal_assistant,english
+open my notebook,personal_assistant,english
+save this note,personal_assistant,english
+show my reminders,personal_assistant,english
+list today tasks,personal_assistant,english
+manage my notes,personal_assistant,english
+help me as personal assistant,personal_assistant,english
+schedule a reminder,personal_assistant,english
+show hospital near me,search_service,english
+show hospital nearby,search_service,english
+show hospital in my area,search_service,english
+show hospital around me,search_service,english
+share hospital near me,search_service,english
+share hospital nearby,search_service,english
+share hospital in my area,search_service,english
+share hospital around me,search_service,english
+give hospital near me,search_service,english
+give hospital nearby,search_service,english
+give hospital in my area,search_service,english
+give hospital around me,search_service,english
+find hospital near me,search_service,english
+find hospital nearby,search_service,english
+find hospital in my area,search_service,english
+find hospital around me,search_service,english
+list hospital near me,search_service,english
+list hospital nearby,search_service,english
+list hospital in my area,search_service,english
+list hospital around me,search_service,english
+display hospital near me,search_service,english
+display hospital nearby,search_service,english
+display hospital in my area,search_service,english
+display hospital around me,search_service,english
+tell me hospital near me,search_service,english
+tell me hospital nearby,search_service,english
+tell me hospital in my area,search_service,english
+tell me hospital around me,search_service,english
+can you show hospital near me,search_service,english
+can you show hospital nearby,search_service,english
+can you show hospital in my area,search_service,english
+can you show hospital around me,search_service,english
+please share hospital near me,search_service,english
+please share hospital nearby,search_service,english
+please share hospital in my area,search_service,english
+please share hospital around me,search_service,english
+i need hospital near me,search_service,english
+i need hospital nearby,search_service,english
+i need hospital in my area,search_service,english
+i need hospital around me,search_service,english
+hospital list,search_service,english
+nearest hospital,search_service,english
+hospital near me,search_service,english
+find hospital for me,search_service,english
+show clinic near me,search_service,english
+show clinic nearby,search_service,english
+show clinic in my area,search_service,english
+show clinic around me,search_service,english
+share clinic near me,search_service,english
+share clinic nearby,search_service,english
+share clinic in my area,search_service,english
+share clinic around me,search_service,english
+give clinic near me,search_service,english
+give clinic nearby,search_service,english
+give clinic in my area,search_service,english
+give clinic around me,search_service,english
+find clinic near me,search_service,english
+find clinic nearby,search_service,english
+find clinic in my area,search_service,english
+find clinic around me,search_service,english
+list clinic near me,search_service,english
+list clinic nearby,search_service,english
+list clinic in my area,search_service,english
+list clinic around me,search_service,english
+display clinic near me,search_service,english
+display clinic nearby,search_service,english
+display clinic in my area,search_service,english
+display clinic around me,search_service,english
+tell me clinic near me,search_service,english
+tell me clinic nearby,search_service,english
+tell me clinic in my area,search_service,english
+tell me clinic around me,search_service,english
+can you show clinic near me,search_service,english
+can you show clinic nearby,search_service,english
+can you show clinic in my area,search_service,english
+can you show clinic around me,search_service,english
+please share clinic near me,search_service,english
+please share clinic nearby,search_service,english
+please share clinic in my area,search_service,english
+please share clinic around me,search_service,english
+i need clinic near me,search_service,english
+i need clinic nearby,search_service,english
+i need clinic in my area,search_service,english
+i need clinic around me,search_service,english
+clinic list,search_service,english
+nearest clinic,search_service,english
+clinic near me,search_service,english
+find clinic for me,search_service,english
+show medical center near me,search_service,english
+show medical center nearby,search_service,english
+show medical center in my area,search_service,english
+show medical center around me,search_service,english
+share medical center near me,search_service,english
+share medical center nearby,search_service,english
+share medical center in my area,search_service,english
+share medical center around me,search_service,english
+give medical center near me,search_service,english
+give medical center nearby,search_service,english
+give medical center in my area,search_service,english
+give medical center around me,search_service,english
+find medical center near me,search_service,english
+find medical center nearby,search_service,english
+find medical center in my area,search_service,english
+find medical center around me,search_service,english
+list medical center near me,search_service,english
+list medical center nearby,search_service,english
+list medical center in my area,search_service,english
+list medical center around me,search_service,english
+display medical center near me,search_service,english
+display medical center nearby,search_service,english
+display medical center in my area,search_service,english
+display medical center around me,search_service,english
+tell me medical center near me,search_service,english
+tell me medical center nearby,search_service,english
+tell me medical center in my area,search_service,english
+tell me medical center around me,search_service,english
+can you show medical center near me,search_service,english
+can you show medical center nearby,search_service,english
+can you show medical center in my area,search_service,english
+can you show medical center around me,search_service,english
+please share medical center near me,search_service,english
+please share medical center nearby,search_service,english
+please share medical center in my area,search_service,english
+please share medical center around me,search_service,english
+i need medical center near me,search_service,english
+i need medical center nearby,search_service,english
+i need medical center in my area,search_service,english
+i need medical center around me,search_service,english
+medical center list,search_service,english
+nearest medical center,search_service,english
+medical center near me,search_service,english
+find medical center for me,search_service,english
+show multispeciality hospital near me,search_service,english
+show multispeciality hospital nearby,search_service,english
+show multispeciality hospital in my area,search_service,english
+show multispeciality hospital around me,search_service,english
+share multispeciality hospital near me,search_service,english
+share multispeciality hospital nearby,search_service,english
+share multispeciality hospital in my area,search_service,english
+share multispeciality hospital around me,search_service,english
+give multispeciality hospital near me,search_service,english
+give multispeciality hospital nearby,search_service,english
+give multispeciality hospital in my area,search_service,english
+give multispeciality hospital around me,search_service,english
+find multispeciality hospital near me,search_service,english
+find multispeciality hospital nearby,search_service,english
+find multispeciality hospital in my area,search_service,english
+find multispeciality hospital around me,search_service,english
+list multispeciality hospital near me,search_service,english
+list multispeciality hospital nearby,search_service,english
+list multispeciality hospital in my area,search_service,english
+list multispeciality hospital around me,search_service,english
+display multispeciality hospital near me,search_service,english
+display multispeciality hospital nearby,search_service,english
+display multispeciality hospital in my area,search_service,english
+display multispeciality hospital around me,search_service,english
+tell me multispeciality hospital near me,search_service,english
+tell me multispeciality hospital nearby,search_service,english
+tell me multispeciality hospital in my area,search_service,english
+tell me multispeciality hospital around me,search_service,english
+can you show multispeciality hospital near me,search_service,english
+can you show multispeciality hospital nearby,search_service,english
+can you show multispeciality hospital in my area,search_service,english
+can you show multispeciality hospital around me,search_service,english
+please share multispeciality hospital near me,search_service,english
+please share multispeciality hospital nearby,search_service,english
+please share multispeciality hospital in my area,search_service,english
+please share multispeciality hospital around me,search_service,english
+i need multispeciality hospital near me,search_service,english
+i need multispeciality hospital nearby,search_service,english
+i need multispeciality hospital in my area,search_service,english
+i need multispeciality hospital around me,search_service,english
+multispeciality hospital list,search_service,english
+nearest multispeciality hospital,search_service,english
+multispeciality hospital near me,search_service,english
+find multispeciality hospital for me,search_service,english
+show school near me,search_service,english
+show school nearby,search_service,english
+show school in my area,search_service,english
+show school around me,search_service,english
+share school near me,search_service,english
+share school nearby,search_service,english
+share school in my area,search_service,english
+share school around me,search_service,english
+give school near me,search_service,english
+give school nearby,search_service,english
+give school in my area,search_service,english
+give school around me,search_service,english
+find school near me,search_service,english
+find school nearby,search_service,english
+find school in my area,search_service,english
+find school around me,search_service,english
+list school near me,search_service,english
+list school nearby,search_service,english
+list school in my area,search_service,english
+list school around me,search_service,english
+display school near me,search_service,english
+display school nearby,search_service,english
+display school in my area,search_service,english
+display school around me,search_service,english
+tell me school near me,search_service,english
+tell me school nearby,search_service,english
+tell me school in my area,search_service,english
+tell me school around me,search_service,english
+can you show school near me,search_service,english
+can you show school nearby,search_service,english
+can you show school in my area,search_service,english
+can you show school around me,search_service,english
+please share school near me,search_service,english
+please share school nearby,search_service,english
+please share school in my area,search_service,english
+please share school around me,search_service,english
+i need school near me,search_service,english
+i need school nearby,search_service,english
+i need school in my area,search_service,english
+i need school around me,search_service,english
+school list,search_service,english
+nearest school,search_service,english
+school near me,search_service,english
+find school for me,search_service,english
+show academy near me,search_service,english
+show academy nearby,search_service,english
+show academy in my area,search_service,english
+show academy around me,search_service,english
+share academy near me,search_service,english
+share academy nearby,search_service,english
+share academy in my area,search_service,english
+share academy around me,search_service,english
+give academy near me,search_service,english
+give academy nearby,search_service,english
+give academy in my area,search_service,english
+give academy around me,search_service,english
+find academy near me,search_service,english
+find academy nearby,search_service,english
+find academy in my area,search_service,english
+find academy around me,search_service,english
+list academy near me,search_service,english
+list academy nearby,search_service,english
+list academy in my area,search_service,english
+list academy around me,search_service,english
+display academy near me,search_service,english
+display academy nearby,search_service,english
+display academy in my area,search_service,english
+display academy around me,search_service,english
+tell me academy near me,search_service,english
+tell me academy nearby,search_service,english
+tell me academy in my area,search_service,english
+tell me academy around me,search_service,english
+can you show academy near me,search_service,english
+can you show academy nearby,search_service,english
+can you show academy in my area,search_service,english
+can you show academy around me,search_service,english
+please share academy near me,search_service,english
+please share academy nearby,search_service,english
+please share academy in my area,search_service,english
+please share academy around me,search_service,english
+i need academy near me,search_service,english
+i need academy nearby,search_service,english
+i need academy in my area,search_service,english
+i need academy around me,search_service,english
+academy list,search_service,english
+nearest academy,search_service,english
+academy near me,search_service,english
+find academy for me,search_service,english
+show public school near me,search_service,english
+show public school nearby,search_service,english
+show public school in my area,search_service,english
+show public school around me,search_service,english
+share public school near me,search_service,english
+share public school nearby,search_service,english
+share public school in my area,search_service,english
+share public school around me,search_service,english
+give public school near me,search_service,english
+give public school nearby,search_service,english
+give public school in my area,search_service,english
+give public school around me,search_service,english
+find public school near me,search_service,english
+find public school nearby,search_service,english
+find public school in my area,search_service,english
+find public school around me,search_service,english
+list public school near me,search_service,english
+list public school nearby,search_service,english
+list public school in my area,search_service,english
+list public school around me,search_service,english
+display public school near me,search_service,english
+display public school nearby,search_service,english
+display public school in my area,search_service,english
+display public school around me,search_service,english
+tell me public school near me,search_service,english
+tell me public school nearby,search_service,english
+tell me public school in my area,search_service,english
+tell me public school around me,search_service,english
+can you show public school near me,search_service,english
+can you show public school nearby,search_service,english
+can you show public school in my area,search_service,english
+can you show public school around me,search_service,english
+please share public school near me,search_service,english
+please share public school nearby,search_service,english
+please share public school in my area,search_service,english
+please share public school around me,search_service,english
+i need public school near me,search_service,english
+i need public school nearby,search_service,english
+i need public school in my area,search_service,english
+i need public school around me,search_service,english
+public school list,search_service,english
+nearest public school,search_service,english
+public school near me,search_service,english
+find public school for me,search_service,english
+show high school near me,search_service,english
+show high school nearby,search_service,english
+show high school in my area,search_service,english
+show high school around me,search_service,english
+share high school near me,search_service,english
+share high school nearby,search_service,english
+share high school in my area,search_service,english
+share high school around me,search_service,english
+give high school near me,search_service,english
+give high school nearby,search_service,english
+give high school in my area,search_service,english
+give high school around me,search_service,english
+find high school near me,search_service,english
+find high school nearby,search_service,english
+find high school in my area,search_service,english
+find high school around me,search_service,english
+list high school near me,search_service,english
+list high school nearby,search_service,english
+list high school in my area,search_service,english
+list high school around me,search_service,english
+display high school near me,search_service,english
+display high school nearby,search_service,english
+display high school in my area,search_service,english
+display high school around me,search_service,english
+tell me high school near me,search_service,english
+tell me high school nearby,search_service,english
+tell me high school in my area,search_service,english
+tell me high school around me,search_service,english
+can you show high school near me,search_service,english
+can you show high school nearby,search_service,english
+can you show high school in my area,search_service,english
+can you show high school around me,search_service,english
+please share high school near me,search_service,english
+please share high school nearby,search_service,english
+please share high school in my area,search_service,english
+please share high school around me,search_service,english
+i need high school near me,search_service,english
+i need high school nearby,search_service,english
+i need high school in my area,search_service,english
+i need high school around me,search_service,english
+high school list,search_service,english
+nearest high school,search_service,english
+high school near me,search_service,english
+find high school for me,search_service,english
+show bank near me,search_service,english
+show bank nearby,search_service,english
+show bank in my area,search_service,english
+show bank around me,search_service,english
+share bank near me,search_service,english
+share bank nearby,search_service,english
+share bank in my area,search_service,english
+share bank around me,search_service,english
+give bank near me,search_service,english
+give bank nearby,search_service,english
+give bank in my area,search_service,english
+give bank around me,search_service,english
+find bank near me,search_service,english
+find bank nearby,search_service,english
+find bank in my area,search_service,english
+find bank around me,search_service,english
+list bank near me,search_service,english
+list bank nearby,search_service,english
+list bank in my area,search_service,english
+list bank around me,search_service,english
+display bank near me,search_service,english
+display bank nearby,search_service,english
+display bank in my area,search_service,english
+display bank around me,search_service,english
+tell me bank near me,search_service,english
+tell me bank nearby,search_service,english
+tell me bank in my area,search_service,english
+tell me bank around me,search_service,english
+can you show bank near me,search_service,english
+can you show bank nearby,search_service,english
+can you show bank in my area,search_service,english
+can you show bank around me,search_service,english
+please share bank near me,search_service,english
+please share bank nearby,search_service,english
+please share bank in my area,search_service,english
+please share bank around me,search_service,english
+i need bank near me,search_service,english
+i need bank nearby,search_service,english
+i need bank in my area,search_service,english
+i need bank around me,search_service,english
+bank list,search_service,english
+nearest bank,search_service,english
+bank near me,search_service,english
+find bank for me,search_service,english
+show atm near me,search_service,english
+show atm nearby,search_service,english
+show atm in my area,search_service,english
+show atm around me,search_service,english
+share atm near me,search_service,english
+share atm nearby,search_service,english
+share atm in my area,search_service,english
+share atm around me,search_service,english
+give atm near me,search_service,english
+give atm nearby,search_service,english
+give atm in my area,search_service,english
+give atm around me,search_service,english
+find atm near me,search_service,english
+find atm nearby,search_service,english
+find atm in my area,search_service,english
+find atm around me,search_service,english
+list atm near me,search_service,english
+list atm nearby,search_service,english
+list atm in my area,search_service,english
+list atm around me,search_service,english
+display atm near me,search_service,english
+display atm nearby,search_service,english
+display atm in my area,search_service,english
+display atm around me,search_service,english
+tell me atm near me,search_service,english
+tell me atm nearby,search_service,english
+tell me atm in my area,search_service,english
+tell me atm around me,search_service,english
+can you show atm near me,search_service,english
+can you show atm nearby,search_service,english
+can you show atm in my area,search_service,english
+can you show atm around me,search_service,english
+please share atm near me,search_service,english
+please share atm nearby,search_service,english
+please share atm in my area,search_service,english
+please share atm around me,search_service,english
+i need atm near me,search_service,english
+i need atm nearby,search_service,english
+i need atm in my area,search_service,english
+i need atm around me,search_service,english
+atm list,search_service,english
+nearest atm,search_service,english
+atm near me,search_service,english
+find atm for me,search_service,english
+show branch near me,search_service,english
+show branch nearby,search_service,english
+show branch in my area,search_service,english
+show branch around me,search_service,english
+share branch near me,search_service,english
+share branch nearby,search_service,english
+share branch in my area,search_service,english
+share branch around me,search_service,english
+give branch near me,search_service,english
+give branch nearby,search_service,english
+give branch in my area,search_service,english
+give branch around me,search_service,english
+find branch near me,search_service,english
+find branch nearby,search_service,english
+find branch in my area,search_service,english
+find branch around me,search_service,english
+list branch near me,search_service,english
+list branch nearby,search_service,english
+list branch in my area,search_service,english
+list branch around me,search_service,english
+display branch near me,search_service,english
+display branch nearby,search_service,english
+display branch in my area,search_service,english
+display branch around me,search_service,english
+tell me branch near me,search_service,english
+tell me branch nearby,search_service,english
+tell me branch in my area,search_service,english
+tell me branch around me,search_service,english
+can you show branch near me,search_service,english
+can you show branch nearby,search_service,english
+can you show branch in my area,search_service,english
+can you show branch around me,search_service,english
+please share branch near me,search_service,english
+please share branch nearby,search_service,english
+please share branch in my area,search_service,english
+please share branch around me,search_service,english
+i need branch near me,search_service,english
+i need branch nearby,search_service,english
+i need branch in my area,search_service,english
+i need branch around me,search_service,english
+branch list,search_service,english
+nearest branch,search_service,english
+branch near me,search_service,english
+find branch for me,search_service,english
+show finance office near me,search_service,english
+show finance office nearby,search_service,english
+show finance office in my area,search_service,english
+show finance office around me,search_service,english
+share finance office near me,search_service,english
+share finance office nearby,search_service,english
+share finance office in my area,search_service,english
+share finance office around me,search_service,english
+give finance office near me,search_service,english
+give finance office nearby,search_service,english
+give finance office in my area,search_service,english
+give finance office around me,search_service,english
+find finance office near me,search_service,english
+find finance office nearby,search_service,english
+find finance office in my area,search_service,english
+find finance office around me,search_service,english
+list finance office near me,search_service,english
+list finance office nearby,search_service,english
+list finance office in my area,search_service,english
+list finance office around me,search_service,english
+display finance office near me,search_service,english
+display finance office nearby,search_service,english
+display finance office in my area,search_service,english
+display finance office around me,search_service,english
+tell me finance office near me,search_service,english
+tell me finance office nearby,search_service,english
+tell me finance office in my area,search_service,english
+tell me finance office around me,search_service,english
+can you show finance office near me,search_service,english
+can you show finance office nearby,search_service,english
+can you show finance office in my area,search_service,english
+can you show finance office around me,search_service,english
+please share finance office near me,search_service,english
+please share finance office nearby,search_service,english
+please share finance office in my area,search_service,english
+please share finance office around me,search_service,english
+i need finance office near me,search_service,english
+i need finance office nearby,search_service,english
+i need finance office in my area,search_service,english
+i need finance office around me,search_service,english
+finance office list,search_service,english
+nearest finance office,search_service,english
+finance office near me,search_service,english
+find finance office for me,search_service,english
+show police station near me,search_service,english
+show police station nearby,search_service,english
+show police station in my area,search_service,english
+show police station around me,search_service,english
+share police station near me,search_service,english
+share police station nearby,search_service,english
+share police station in my area,search_service,english
+share police station around me,search_service,english
+give police station near me,search_service,english
+give police station nearby,search_service,english
+give police station in my area,search_service,english
+give police station around me,search_service,english
+find police station near me,search_service,english
+find police station nearby,search_service,english
+find police station in my area,search_service,english
+find police station around me,search_service,english
+list police station near me,search_service,english
+list police station nearby,search_service,english
+list police station in my area,search_service,english
+list police station around me,search_service,english
+display police station near me,search_service,english
+display police station nearby,search_service,english
+display police station in my area,search_service,english
+display police station around me,search_service,english
+tell me police station near me,search_service,english
+tell me police station nearby,search_service,english
+tell me police station in my area,search_service,english
+tell me police station around me,search_service,english
+can you show police station near me,search_service,english
+can you show police station nearby,search_service,english
+can you show police station in my area,search_service,english
+can you show police station around me,search_service,english
+please share police station near me,search_service,english
+please share police station nearby,search_service,english
+please share police station in my area,search_service,english
+please share police station around me,search_service,english
+i need police station near me,search_service,english
+i need police station nearby,search_service,english
+i need police station in my area,search_service,english
+i need police station around me,search_service,english
+police station list,search_service,english
+nearest police station,search_service,english
+police station near me,search_service,english
+find police station for me,search_service,english
+show police office near me,search_service,english
+show police office nearby,search_service,english
+show police office in my area,search_service,english
+show police office around me,search_service,english
+share police office near me,search_service,english
+share police office nearby,search_service,english
+share police office in my area,search_service,english
+share police office around me,search_service,english
+give police office near me,search_service,english
+give police office nearby,search_service,english
+give police office in my area,search_service,english
+give police office around me,search_service,english
+find police office near me,search_service,english
+find police office nearby,search_service,english
+find police office in my area,search_service,english
+find police office around me,search_service,english
+list police office near me,search_service,english
+list police office nearby,search_service,english
+list police office in my area,search_service,english
+list police office around me,search_service,english
+display police office near me,search_service,english
+display police office nearby,search_service,english
+display police office in my area,search_service,english
+display police office around me,search_service,english
+tell me police office near me,search_service,english
+tell me police office nearby,search_service,english
+tell me police office in my area,search_service,english
+tell me police office around me,search_service,english
+can you show police office near me,search_service,english
+can you show police office nearby,search_service,english
+can you show police office in my area,search_service,english
+can you show police office around me,search_service,english
+please share police office near me,search_service,english
+please share police office nearby,search_service,english
+please share police office in my area,search_service,english
+please share police office around me,search_service,english
+i need police office near me,search_service,english
+i need police office nearby,search_service,english
+i need police office in my area,search_service,english
+i need police office around me,search_service,english
+police office list,search_service,english
+nearest police office,search_service,english
+police office near me,search_service,english
+find police office for me,search_service,english
+show thana near me,search_service,english
+show thana nearby,search_service,english
+show thana in my area,search_service,english
+show thana around me,search_service,english
+share thana near me,search_service,english
+share thana nearby,search_service,english
+share thana in my area,search_service,english
+share thana around me,search_service,english
+give thana near me,search_service,english
+give thana nearby,search_service,english
+give thana in my area,search_service,english
+give thana around me,search_service,english
+find thana near me,search_service,english
+find thana nearby,search_service,english
+find thana in my area,search_service,english
+find thana around me,search_service,english
+list thana near me,search_service,english
+list thana nearby,search_service,english
+list thana in my area,search_service,english
+list thana around me,search_service,english
+display thana near me,search_service,english
+display thana nearby,search_service,english
+display thana in my area,search_service,english
+display thana around me,search_service,english
+tell me thana near me,search_service,english
+tell me thana nearby,search_service,english
+tell me thana in my area,search_service,english
+tell me thana around me,search_service,english
+can you show thana near me,search_service,english
+can you show thana nearby,search_service,english
+can you show thana in my area,search_service,english
+can you show thana around me,search_service,english
+please share thana near me,search_service,english
+please share thana nearby,search_service,english
+please share thana in my area,search_service,english
+please share thana around me,search_service,english
+i need thana near me,search_service,english
+i need thana nearby,search_service,english
+i need thana in my area,search_service,english
+i need thana around me,search_service,english
+thana list,search_service,english
+nearest thana,search_service,english
+thana near me,search_service,english
+find thana for me,search_service,english
+show station house near me,search_service,english
+show station house nearby,search_service,english
+show station house in my area,search_service,english
+show station house around me,search_service,english
+share station house near me,search_service,english
+share station house nearby,search_service,english
+share station house in my area,search_service,english
+share station house around me,search_service,english
+give station house near me,search_service,english
+give station house nearby,search_service,english
+give station house in my area,search_service,english
+give station house around me,search_service,english
+find station house near me,search_service,english
+find station house nearby,search_service,english
+find station house in my area,search_service,english
+find station house around me,search_service,english
+list station house near me,search_service,english
+list station house nearby,search_service,english
+list station house in my area,search_service,english
+list station house around me,search_service,english
+display station house near me,search_service,english
+display station house nearby,search_service,english
+display station house in my area,search_service,english
+display station house around me,search_service,english
+tell me station house near me,search_service,english
+tell me station house nearby,search_service,english
+tell me station house in my area,search_service,english
+tell me station house around me,search_service,english
+can you show station house near me,search_service,english
+can you show station house nearby,search_service,english
+can you show station house in my area,search_service,english
+can you show station house around me,search_service,english
+please share station house near me,search_service,english
+please share station house nearby,search_service,english
+please share station house in my area,search_service,english
+please share station house around me,search_service,english
+i need station house near me,search_service,english
+i need station house nearby,search_service,english
+i need station house in my area,search_service,english
+i need station house around me,search_service,english
+station house list,search_service,english
+nearest station house,search_service,english
+station house near me,search_service,english
+find station house for me,search_service,english
+show hotel near me,search_service,english
+show hotel nearby,search_service,english
+show hotel in my area,search_service,english
+show hotel around me,search_service,english
+share hotel near me,search_service,english
+share hotel nearby,search_service,english
+share hotel in my area,search_service,english
+share hotel around me,search_service,english
+give hotel near me,search_service,english
+give hotel nearby,search_service,english
+give hotel in my area,search_service,english
+give hotel around me,search_service,english
+find hotel near me,search_service,english
+find hotel nearby,search_service,english
+find hotel in my area,search_service,english
+find hotel around me,search_service,english
+list hotel near me,search_service,english
+list hotel nearby,search_service,english
+list hotel in my area,search_service,english
+list hotel around me,search_service,english
+display hotel near me,search_service,english
+display hotel nearby,search_service,english
+display hotel in my area,search_service,english
+display hotel around me,search_service,english
+tell me hotel near me,search_service,english
+tell me hotel nearby,search_service,english
+tell me hotel in my area,search_service,english
+tell me hotel around me,search_service,english
+can you show hotel near me,search_service,english
+can you show hotel nearby,search_service,english
+can you show hotel in my area,search_service,english
+can you show hotel around me,search_service,english
+please share hotel near me,search_service,english
+please share hotel nearby,search_service,english
+please share hotel in my area,search_service,english
+please share hotel around me,search_service,english
+i need hotel near me,search_service,english
+i need hotel nearby,search_service,english
+i need hotel in my area,search_service,english
+i need hotel around me,search_service,english
+hotel list,search_service,english
+nearest hotel,search_service,english
+hotel near me,search_service,english
+find hotel for me,search_service,english
+show lodge near me,search_service,english
+show lodge nearby,search_service,english
+show lodge in my area,search_service,english
+show lodge around me,search_service,english
+share lodge near me,search_service,english
+share lodge nearby,search_service,english
+share lodge in my area,search_service,english
+share lodge around me,search_service,english
+give lodge near me,search_service,english
+give lodge nearby,search_service,english
+give lodge in my area,search_service,english
+give lodge around me,search_service,english
+find lodge near me,search_service,english
+find lodge nearby,search_service,english
+find lodge in my area,search_service,english
+find lodge around me,search_service,english
+list lodge near me,search_service,english
+list lodge nearby,search_service,english
+list lodge in my area,search_service,english
+list lodge around me,search_service,english
+display lodge near me,search_service,english
+display lodge nearby,search_service,english
+display lodge in my area,search_service,english
+display lodge around me,search_service,english
+tell me lodge near me,search_service,english
+tell me lodge nearby,search_service,english
+tell me lodge in my area,search_service,english
+tell me lodge around me,search_service,english
+can you show lodge near me,search_service,english
+can you show lodge nearby,search_service,english
+can you show lodge in my area,search_service,english
+can you show lodge around me,search_service,english
+please share lodge near me,search_service,english
+please share lodge nearby,search_service,english
+please share lodge in my area,search_service,english
+please share lodge around me,search_service,english
+i need lodge near me,search_service,english
+i need lodge nearby,search_service,english
+i need lodge in my area,search_service,english
+i need lodge around me,search_service,english
+lodge list,search_service,english
+nearest lodge,search_service,english
+lodge near me,search_service,english
+find lodge for me,search_service,english
+show stay hotel near me,search_service,english
+show stay hotel nearby,search_service,english
+show stay hotel in my area,search_service,english
+show stay hotel around me,search_service,english
+share stay hotel near me,search_service,english
+share stay hotel nearby,search_service,english
+share stay hotel in my area,search_service,english
+share stay hotel around me,search_service,english
+give stay hotel near me,search_service,english
+give stay hotel nearby,search_service,english
+give stay hotel in my area,search_service,english
+give stay hotel around me,search_service,english
+find stay hotel near me,search_service,english
+find stay hotel nearby,search_service,english
+find stay hotel in my area,search_service,english
+find stay hotel around me,search_service,english
+list stay hotel near me,search_service,english
+list stay hotel nearby,search_service,english
+list stay hotel in my area,search_service,english
+list stay hotel around me,search_service,english
+display stay hotel near me,search_service,english
+display stay hotel nearby,search_service,english
+display stay hotel in my area,search_service,english
+display stay hotel around me,search_service,english
+tell me stay hotel near me,search_service,english
+tell me stay hotel nearby,search_service,english
+tell me stay hotel in my area,search_service,english
+tell me stay hotel around me,search_service,english
+can you show stay hotel near me,search_service,english
+can you show stay hotel nearby,search_service,english
+can you show stay hotel in my area,search_service,english
+can you show stay hotel around me,search_service,english
+please share stay hotel near me,search_service,english
+please share stay hotel nearby,search_service,english
+please share stay hotel in my area,search_service,english
+please share stay hotel around me,search_service,english
+i need stay hotel near me,search_service,english
+i need stay hotel nearby,search_service,english
+i need stay hotel in my area,search_service,english
+i need stay hotel around me,search_service,english
+stay hotel list,search_service,english
+nearest stay hotel,search_service,english
+stay hotel near me,search_service,english
+find stay hotel for me,search_service,english
+show guest house near me,search_service,english
+show guest house nearby,search_service,english
+show guest house in my area,search_service,english
+show guest house around me,search_service,english
+share guest house near me,search_service,english
+share guest house nearby,search_service,english
+share guest house in my area,search_service,english
+share guest house around me,search_service,english
+give guest house near me,search_service,english
+give guest house nearby,search_service,english
+give guest house in my area,search_service,english
+give guest house around me,search_service,english
+find guest house near me,search_service,english
+find guest house nearby,search_service,english
+find guest house in my area,search_service,english
+find guest house around me,search_service,english
+list guest house near me,search_service,english
+list guest house nearby,search_service,english
+list guest house in my area,search_service,english
+list guest house around me,search_service,english
+display guest house near me,search_service,english
+display guest house nearby,search_service,english
+display guest house in my area,search_service,english
+display guest house around me,search_service,english
+tell me guest house near me,search_service,english
+tell me guest house nearby,search_service,english
+tell me guest house in my area,search_service,english
+tell me guest house around me,search_service,english
+can you show guest house near me,search_service,english
+can you show guest house nearby,search_service,english
+can you show guest house in my area,search_service,english
+can you show guest house around me,search_service,english
+please share guest house near me,search_service,english
+please share guest house nearby,search_service,english
+please share guest house in my area,search_service,english
+please share guest house around me,search_service,english
+i need guest house near me,search_service,english
+i need guest house nearby,search_service,english
+i need guest house in my area,search_service,english
+i need guest house around me,search_service,english
+guest house list,search_service,english
+nearest guest house,search_service,english
+guest house near me,search_service,english
+find guest house for me,search_service,english
+show pharmacy near me,search_service,english
+show pharmacy nearby,search_service,english
+show pharmacy in my area,search_service,english
+show pharmacy around me,search_service,english
+share pharmacy near me,search_service,english
+share pharmacy nearby,search_service,english
+share pharmacy in my area,search_service,english
+share pharmacy around me,search_service,english
+give pharmacy near me,search_service,english
+give pharmacy nearby,search_service,english
+give pharmacy in my area,search_service,english
+give pharmacy around me,search_service,english
+find pharmacy near me,search_service,english
+find pharmacy nearby,search_service,english
+find pharmacy in my area,search_service,english
+find pharmacy around me,search_service,english
+list pharmacy near me,search_service,english
+list pharmacy nearby,search_service,english
+list pharmacy in my area,search_service,english
+list pharmacy around me,search_service,english
+display pharmacy near me,search_service,english
+display pharmacy nearby,search_service,english
+display pharmacy in my area,search_service,english
+display pharmacy around me,search_service,english
+tell me pharmacy near me,search_service,english
+tell me pharmacy nearby,search_service,english
+tell me pharmacy in my area,search_service,english
+tell me pharmacy around me,search_service,english
+can you show pharmacy near me,search_service,english
+can you show pharmacy nearby,search_service,english
+can you show pharmacy in my area,search_service,english
+can you show pharmacy around me,search_service,english
+please share pharmacy near me,search_service,english
+please share pharmacy nearby,search_service,english
+please share pharmacy in my area,search_service,english
+please share pharmacy around me,search_service,english
+i need pharmacy near me,search_service,english
+i need pharmacy nearby,search_service,english
+i need pharmacy in my area,search_service,english
+i need pharmacy around me,search_service,english
+pharmacy list,search_service,english
+nearest pharmacy,search_service,english
+pharmacy near me,search_service,english
+find pharmacy for me,search_service,english
+show medical store near me,search_service,english
+show medical store nearby,search_service,english
+show medical store in my area,search_service,english
+show medical store around me,search_service,english
+share medical store near me,search_service,english
+share medical store nearby,search_service,english
+share medical store in my area,search_service,english
+share medical store around me,search_service,english
+give medical store near me,search_service,english
+give medical store nearby,search_service,english
+give medical store in my area,search_service,english
+give medical store around me,search_service,english
+find medical store near me,search_service,english
+find medical store nearby,search_service,english
+find medical store in my area,search_service,english
+find medical store around me,search_service,english
+list medical store near me,search_service,english
+list medical store nearby,search_service,english
+list medical store in my area,search_service,english
+list medical store around me,search_service,english
+display medical store near me,search_service,english
+display medical store nearby,search_service,english
+display medical store in my area,search_service,english
+display medical store around me,search_service,english
+tell me medical store near me,search_service,english
+tell me medical store nearby,search_service,english
+tell me medical store in my area,search_service,english
+tell me medical store around me,search_service,english
+can you show medical store near me,search_service,english
+can you show medical store nearby,search_service,english
+can you show medical store in my area,search_service,english
+can you show medical store around me,search_service,english
+please share medical store near me,search_service,english
+please share medical store nearby,search_service,english
+please share medical store in my area,search_service,english
+please share medical store around me,search_service,english
+i need medical store near me,search_service,english
+i need medical store nearby,search_service,english
+i need medical store in my area,search_service,english
+i need medical store around me,search_service,english
+medical store list,search_service,english
+nearest medical store,search_service,english
+medical store near me,search_service,english
+find medical store for me,search_service,english
+show chemist shop near me,search_service,english
+show chemist shop nearby,search_service,english
+show chemist shop in my area,search_service,english
+show chemist shop around me,search_service,english
+share chemist shop near me,search_service,english
+share chemist shop nearby,search_service,english
+share chemist shop in my area,search_service,english
+share chemist shop around me,search_service,english
+give chemist shop near me,search_service,english
+give chemist shop nearby,search_service,english
+give chemist shop in my area,search_service,english
+give chemist shop around me,search_service,english
+find chemist shop near me,search_service,english
+find chemist shop nearby,search_service,english
+find chemist shop in my area,search_service,english
+find chemist shop around me,search_service,english
+list chemist shop near me,search_service,english
+list chemist shop nearby,search_service,english
+list chemist shop in my area,search_service,english
+list chemist shop around me,search_service,english
+display chemist shop near me,search_service,english
+display chemist shop nearby,search_service,english
+display chemist shop in my area,search_service,english
+display chemist shop around me,search_service,english
+tell me chemist shop near me,search_service,english
+tell me chemist shop nearby,search_service,english
+tell me chemist shop in my area,search_service,english
+tell me chemist shop around me,search_service,english
+can you show chemist shop near me,search_service,english
+can you show chemist shop nearby,search_service,english
+can you show chemist shop in my area,search_service,english
+can you show chemist shop around me,search_service,english
+please share chemist shop near me,search_service,english
+please share chemist shop nearby,search_service,english
+please share chemist shop in my area,search_service,english
+please share chemist shop around me,search_service,english
+i need chemist shop near me,search_service,english
+i need chemist shop nearby,search_service,english
+i need chemist shop in my area,search_service,english
+i need chemist shop around me,search_service,english
+chemist shop list,search_service,english
+nearest chemist shop,search_service,english
+chemist shop near me,search_service,english
+find chemist shop for me,search_service,english
+show drug store near me,search_service,english
+show drug store nearby,search_service,english
+show drug store in my area,search_service,english
+show drug store around me,search_service,english
+share drug store near me,search_service,english
+share drug store nearby,search_service,english
+share drug store in my area,search_service,english
+share drug store around me,search_service,english
+give drug store near me,search_service,english
+give drug store nearby,search_service,english
+give drug store in my area,search_service,english
+give drug store around me,search_service,english
+find drug store near me,search_service,english
+find drug store nearby,search_service,english
+find drug store in my area,search_service,english
+find drug store around me,search_service,english
+list drug store near me,search_service,english
+list drug store nearby,search_service,english
+list drug store in my area,search_service,english
+list drug store around me,search_service,english
+display drug store near me,search_service,english
+display drug store nearby,search_service,english
+display drug store in my area,search_service,english
+display drug store around me,search_service,english
+tell me drug store near me,search_service,english
+tell me drug store nearby,search_service,english
+tell me drug store in my area,search_service,english
+tell me drug store around me,search_service,english
+can you show drug store near me,search_service,english
+can you show drug store nearby,search_service,english
+can you show drug store in my area,search_service,english
+can you show drug store around me,search_service,english
+please share drug store near me,search_service,english
+please share drug store nearby,search_service,english
+please share drug store in my area,search_service,english
+please share drug store around me,search_service,english
+i need drug store near me,search_service,english
+i need drug store nearby,search_service,english
+i need drug store in my area,search_service,english
+i need drug store around me,search_service,english
+drug store list,search_service,english
+nearest drug store,search_service,english
+drug store near me,search_service,english
+find drug store for me,search_service,english
+address of City Care Hospital,service_details,english
+phone number of City Care Hospital,service_details,english
+location of City Care Hospital,service_details,english
+contact of City Care Hospital,service_details,english
+details of City Care Hospital,service_details,english
+where is City Care Hospital,service_details,english
+how to reach City Care Hospital,service_details,english
+City Care Hospital address,service_details,english
+City Care Hospital location,service_details,english
+City Care Hospital phone number,service_details,english
+share details for City Care Hospital,service_details,english
+address of Sunrise Multispeciality Hospital,service_details,english
+phone number of Sunrise Multispeciality Hospital,service_details,english
+location of Sunrise Multispeciality Hospital,service_details,english
+contact of Sunrise Multispeciality Hospital,service_details,english
+details of Sunrise Multispeciality Hospital,service_details,english
+where is Sunrise Multispeciality Hospital,service_details,english
+how to reach Sunrise Multispeciality Hospital,service_details,english
+Sunrise Multispeciality Hospital address,service_details,english
+Sunrise Multispeciality Hospital location,service_details,english
+Sunrise Multispeciality Hospital phone number,service_details,english
+share details for Sunrise Multispeciality Hospital,service_details,english
+address of Apollo Pharmacy,service_details,english
+phone number of Apollo Pharmacy,service_details,english
+location of Apollo Pharmacy,service_details,english
+contact of Apollo Pharmacy,service_details,english
+details of Apollo Pharmacy,service_details,english
+where is Apollo Pharmacy,service_details,english
+how to reach Apollo Pharmacy,service_details,english
+Apollo Pharmacy address,service_details,english
+Apollo Pharmacy location,service_details,english
+Apollo Pharmacy phone number,service_details,english
+share details for Apollo Pharmacy,service_details,english
+address of Aurangabad Public School,service_details,english
+phone number of Aurangabad Public School,service_details,english
+location of Aurangabad Public School,service_details,english
+contact of Aurangabad Public School,service_details,english
+details of Aurangabad Public School,service_details,english
+where is Aurangabad Public School,service_details,english
+how to reach Aurangabad Public School,service_details,english
+Aurangabad Public School address,service_details,english
+Aurangabad Public School location,service_details,english
+Aurangabad Public School phone number,service_details,english
+share details for Aurangabad Public School,service_details,english
+address of State Bank of India,service_details,english
+phone number of State Bank of India,service_details,english
+location of State Bank of India,service_details,english
+contact of State Bank of India,service_details,english
+details of State Bank of India,service_details,english
+where is State Bank of India,service_details,english
+how to reach State Bank of India,service_details,english
+State Bank of India address,service_details,english
+State Bank of India location,service_details,english
+State Bank of India phone number,service_details,english
+share details for State Bank of India,service_details,english
+address of Kranti Chowk Police Station,service_details,english
+phone number of Kranti Chowk Police Station,service_details,english
+location of Kranti Chowk Police Station,service_details,english
+contact of Kranti Chowk Police Station,service_details,english
+details of Kranti Chowk Police Station,service_details,english
+where is Kranti Chowk Police Station,service_details,english
+how to reach Kranti Chowk Police Station,service_details,english
+Kranti Chowk Police Station address,service_details,english
+Kranti Chowk Police Station location,service_details,english
+Kranti Chowk Police Station phone number,service_details,english
+share details for Kranti Chowk Police Station,service_details,english
+address of Hotel Grand Palace,service_details,english
+phone number of Hotel Grand Palace,service_details,english
+location of Hotel Grand Palace,service_details,english
+contact of Hotel Grand Palace,service_details,english
+details of Hotel Grand Palace,service_details,english
+where is Hotel Grand Palace,service_details,english
+how to reach Hotel Grand Palace,service_details,english
+Hotel Grand Palace address,service_details,english
+Hotel Grand Palace location,service_details,english
+Hotel Grand Palace phone number,service_details,english
+share details for Hotel Grand Palace,service_details,english
+address of MedPlus Pharmacy,service_details,english
+phone number of MedPlus Pharmacy,service_details,english
+location of MedPlus Pharmacy,service_details,english
+contact of MedPlus Pharmacy,service_details,english
+details of MedPlus Pharmacy,service_details,english
+where is MedPlus Pharmacy,service_details,english
+how to reach MedPlus Pharmacy,service_details,english
+MedPlus Pharmacy address,service_details,english
+MedPlus Pharmacy location,service_details,english
+MedPlus Pharmacy phone number,service_details,english
+share details for MedPlus Pharmacy,service_details,english
+address of Bank of Maharashtra,service_details,english
+phone number of Bank of Maharashtra,service_details,english
+location of Bank of Maharashtra,service_details,english
+contact of Bank of Maharashtra,service_details,english
+details of Bank of Maharashtra,service_details,english
+where is Bank of Maharashtra,service_details,english
+how to reach Bank of Maharashtra,service_details,english
+Bank of Maharashtra address,service_details,english
+Bank of Maharashtra location,service_details,english
+Bank of Maharashtra phone number,service_details,english
+share details for Bank of Maharashtra,service_details,english
+address of Scholars International School,service_details,english
+phone number of Scholars International School,service_details,english
+location of Scholars International School,service_details,english
+contact of Scholars International School,service_details,english
+details of Scholars International School,service_details,english
+where is Scholars International School,service_details,english
+how to reach Scholars International School,service_details,english
+Scholars International School address,service_details,english
+Scholars International School location,service_details,english
+Scholars International School phone number,service_details,english
+share details for Scholars International School,service_details,english
+नमस्ते,greeting,hindi
+हेलो,greeting,hindi
+सुप्रभात,greeting,hindi
+शुभ संध्या,greeting,hindi
+कैसे हो,greeting,hindi
+आप कैसे हैं,greeting,hindi
+हाय,greeting,hindi
+नमस्ते चैटबॉट,greeting,hindi
+हेलो असिस्टेंट,greeting,hindi
+क्या आप सुन रहे हैं,greeting,hindi
+नमस्ते दोस्त,greeting,hindi
+हाय चैटबॉट,greeting,hindi
+शुभ प्रभात,greeting,hindi
+हेलो जी,greeting,hindi
+धन्यवाद,thanks,hindi
+बहुत धन्यवाद,thanks,hindi
+शुक्रिया,thanks,hindi
+बहुत बहुत धन्यवाद,thanks,hindi
+आपका धन्यवाद,thanks,hindi
+मदद के लिए धन्यवाद,thanks,hindi
+जानकारी के लिए धन्यवाद,thanks,hindi
+थैंक यू,thanks,hindi
+बहुत शुक्रिया,thanks,hindi
+सहायता के लिए धन्यवाद,thanks,hindi
+अलविदा,goodbye,hindi
+फिर मिलेंगे,goodbye,hindi
+बाय,goodbye,hindi
+ठीक है बाय,goodbye,hindi
+चलता हूँ,goodbye,hindi
+फिर बात करेंगे,goodbye,hindi
+गुड बाय,goodbye,hindi
+अभी के लिए अलविदा,goodbye,hindi
+धन्यवाद बाय,goodbye,hindi
+फिर मिलते हैं,goodbye,hindi
+मदद करो,help,hindi
+मुझे मदद चाहिए,help,hindi
+क्या आप मेरी मदद कर सकते हैं,help,hindi
+कृपया मेरी सहायता करें,help,hindi
+मुझे आपकी मदद चाहिए,help,hindi
+मुझे मार्गदर्शन चाहिए,help,hindi
+मेरी सहायता कीजिए,help,hindi
+कृपया गाइड करें,help,hindi
+मेरे सवाल में मदद करो,help,hindi
+मुझे सपोर्ट चाहिए,help,hindi
+आप कौन हैं,chatbot_info,hindi
+तुम्हारा नाम क्या है,chatbot_info,hindi
+क्या आप चैटबॉट हो,chatbot_info,hindi
+आप क्या कर सकते हैं,chatbot_info,hindi
+अपने बारे में बताओ,chatbot_info,hindi
+क्या आप एआई चैटबॉट हैं,chatbot_info,hindi
+आपकी विशेषताएँ क्या हैं,chatbot_info,hindi
+क्या आप बहुभाषिक हो,chatbot_info,hindi
+आप किस प्रकार के असिस्टेंट हो,chatbot_info,hindi
+आपकी सेवाएँ क्या हैं,chatbot_info,hindi
+रिमाइंडर सेट करो,personal_assistant,hindi
+नोट्स खोलो,personal_assistant,hindi
+आज का काम बताओ,personal_assistant,hindi
+रिमाइंडर बनाओ,personal_assistant,hindi
+मेरे नोट्स दिखाओ,personal_assistant,hindi
+आज के टास्क बताओ,personal_assistant,hindi
+यह नोट सेव करो,personal_assistant,hindi
+मेरे रिमाइंडर दिखाओ,personal_assistant,hindi
+नोटबुक खोलो,personal_assistant,hindi
+पर्सनल असिस्टेंट की तरह मदद करो,personal_assistant,hindi
+अस्पताल सूची दिखाओ,search_service,hindi
+अस्पताल की सूची चाहिए,search_service,hindi
+अस्पताल पास में बताओ,search_service,hindi
+अस्पताल आसपास बताओ,search_service,hindi
+अस्पताल की जानकारी दो,search_service,hindi
+अस्पताल दिखाओ,search_service,hindi
+अस्पताल near me,search_service,hindi
+अस्पताल निकटतम बताओ,search_service,hindi
+मुझे अस्पताल चाहिए,search_service,hindi
+नजदीकी अस्पताल बताओ,search_service,hindi
+अस्पताल कहाँ है,search_service,hindi
+स्कूल सूची दिखाओ,search_service,hindi
+स्कूल की सूची चाहिए,search_service,hindi
+स्कूल पास में बताओ,search_service,hindi
+स्कूल आसपास बताओ,search_service,hindi
+स्कूल की जानकारी दो,search_service,hindi
+स्कूल दिखाओ,search_service,hindi
+स्कूल near me,search_service,hindi
+स्कूल निकटतम बताओ,search_service,hindi
+मुझे स्कूल चाहिए,search_service,hindi
+नजदीकी स्कूल बताओ,search_service,hindi
+स्कूल कहाँ है,search_service,hindi
+बैंक सूची दिखाओ,search_service,hindi
+बैंक की सूची चाहिए,search_service,hindi
+बैंक पास में बताओ,search_service,hindi
+बैंक आसपास बताओ,search_service,hindi
+बैंक की जानकारी दो,search_service,hindi
+बैंक दिखाओ,search_service,hindi
+बैंक near me,search_service,hindi
+बैंक निकटतम बताओ,search_service,hindi
+मुझे बैंक चाहिए,search_service,hindi
+नजदीकी बैंक बताओ,search_service,hindi
+बैंक कहाँ है,search_service,hindi
+पुलिस स्टेशन सूची दिखाओ,search_service,hindi
+पुलिस स्टेशन की सूची चाहिए,search_service,hindi
+पुलिस स्टेशन पास में बताओ,search_service,hindi
+पुलिस स्टेशन आसपास बताओ,search_service,hindi
+पुलिस स्टेशन की जानकारी दो,search_service,hindi
+पुलिस स्टेशन दिखाओ,search_service,hindi
+पुलिस स्टेशन near me,search_service,hindi
+पुलिस स्टेशन निकटतम बताओ,search_service,hindi
+मुझे पुलिस स्टेशन चाहिए,search_service,hindi
+नजदीकी पुलिस स्टेशन बताओ,search_service,hindi
+पुलिस स्टेशन कहाँ है,search_service,hindi
+होटल सूची दिखाओ,search_service,hindi
+होटल की सूची चाहिए,search_service,hindi
+होटल पास में बताओ,search_service,hindi
+होटल आसपास बताओ,search_service,hindi
+होटल की जानकारी दो,search_service,hindi
+होटल दिखाओ,search_service,hindi
+होटल near me,search_service,hindi
+होटल निकटतम बताओ,search_service,hindi
+मुझे होटल चाहिए,search_service,hindi
+नजदीकी होटल बताओ,search_service,hindi
+होटल कहाँ है,search_service,hindi
+फार्मेसी सूची दिखाओ,search_service,hindi
+फार्मेसी की सूची चाहिए,search_service,hindi
+फार्मेसी पास में बताओ,search_service,hindi
+फार्मेसी आसपास बताओ,search_service,hindi
+फार्मेसी की जानकारी दो,search_service,hindi
+फार्मेसी दिखाओ,search_service,hindi
+फार्मेसी near me,search_service,hindi
+फार्मेसी निकटतम बताओ,search_service,hindi
+मुझे फार्मेसी चाहिए,search_service,hindi
+नजदीकी फार्मेसी बताओ,search_service,hindi
+फार्मेसी कहाँ है,search_service,hindi
+मेडिकल स्टोर सूची दिखाओ,search_service,hindi
+मेडिकल स्टोर की सूची चाहिए,search_service,hindi
+मेडिकल स्टोर पास में बताओ,search_service,hindi
+मेडिकल स्टोर आसपास बताओ,search_service,hindi
+मेडिकल स्टोर की जानकारी दो,search_service,hindi
+मेडिकल स्टोर दिखाओ,search_service,hindi
+मेडिकल स्टोर near me,search_service,hindi
+मेडिकल स्टोर निकटतम बताओ,search_service,hindi
+मुझे मेडिकल स्टोर चाहिए,search_service,hindi
+नजदीकी मेडिकल स्टोर बताओ,search_service,hindi
+मेडिकल स्टोर कहाँ है,search_service,hindi
+थाना सूची दिखाओ,search_service,hindi
+थाना की सूची चाहिए,search_service,hindi
+थाना पास में बताओ,search_service,hindi
+थाना आसपास बताओ,search_service,hindi
+थाना की जानकारी दो,search_service,hindi
+थाना दिखाओ,search_service,hindi
+थाना near me,search_service,hindi
+थाना निकटतम बताओ,search_service,hindi
+मुझे थाना चाहिए,search_service,hindi
+नजदीकी थाना बताओ,search_service,hindi
+थाना कहाँ है,search_service,hindi
+सिटी केयर हॉस्पिटल का पता,service_details,hindi
+सिटी केयर हॉस्पिटल का फोन नंबर,service_details,hindi
+सिटी केयर हॉस्पिटल का लोकेशन,service_details,hindi
+सिटी केयर हॉस्पिटल का संपर्क,service_details,hindi
+सिटी केयर हॉस्पिटल की जानकारी,service_details,hindi
+सिटी केयर हॉस्पिटल कहाँ है,service_details,hindi
+सिटी केयर हॉस्पिटल कैसे पहुँचे,service_details,hindi
+सिटी केयर हॉस्पिटल के बारे में बताओ,service_details,hindi
+सिटी केयर हॉस्पिटल का एड्रेस बताओ,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल का पता,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल का फोन नंबर,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल का लोकेशन,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल का संपर्क,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल की जानकारी,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल कहाँ है,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल कैसे पहुँचे,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल के बारे में बताओ,service_details,hindi
+सनराइज मल्टीस्पेशलिटी हॉस्पिटल का एड्रेस बताओ,service_details,hindi
+अपोलो फार्मेसी का पता,service_details,hindi
+अपोलो फार्मेसी का फोन नंबर,service_details,hindi
+अपोलो फार्मेसी का लोकेशन,service_details,hindi
+अपोलो फार्मेसी का संपर्क,service_details,hindi
+अपोलो फार्मेसी की जानकारी,service_details,hindi
+अपोलो फार्मेसी कहाँ है,service_details,hindi
+अपोलो फार्मेसी कैसे पहुँचे,service_details,hindi
+अपोलो फार्मेसी के बारे में बताओ,service_details,hindi
+अपोलो फार्मेसी का एड्रेस बताओ,service_details,hindi
+औरंगाबाद पब्लिक स्कूल का पता,service_details,hindi
+औरंगाबाद पब्लिक स्कूल का फोन नंबर,service_details,hindi
+औरंगाबाद पब्लिक स्कूल का लोकेशन,service_details,hindi
+औरंगाबाद पब्लिक स्कूल का संपर्क,service_details,hindi
+औरंगाबाद पब्लिक स्कूल की जानकारी,service_details,hindi
+औरंगाबाद पब्लिक स्कूल कहाँ है,service_details,hindi
+औरंगाबाद पब्लिक स्कूल कैसे पहुँचे,service_details,hindi
+औरंगाबाद पब्लिक स्कूल के बारे में बताओ,service_details,hindi
+औरंगाबाद पब्लिक स्कूल का एड्रेस बताओ,service_details,hindi
+स्टेट बैंक ऑफ इंडिया का पता,service_details,hindi
+स्टेट बैंक ऑफ इंडिया का फोन नंबर,service_details,hindi
+स्टेट बैंक ऑफ इंडिया का लोकेशन,service_details,hindi
+स्टेट बैंक ऑफ इंडिया का संपर्क,service_details,hindi
+स्टेट बैंक ऑफ इंडिया की जानकारी,service_details,hindi
+स्टेट बैंक ऑफ इंडिया कहाँ है,service_details,hindi
+स्टेट बैंक ऑफ इंडिया कैसे पहुँचे,service_details,hindi
+स्टेट बैंक ऑफ इंडिया के बारे में बताओ,service_details,hindi
+स्टेट बैंक ऑफ इंडिया का एड्रेस बताओ,service_details,hindi
+क्रांति चौक पुलिस स्टेशन का पता,service_details,hindi
+क्रांति चौक पुलिस स्टेशन का फोन नंबर,service_details,hindi
+क्रांति चौक पुलिस स्टेशन का लोकेशन,service_details,hindi
+क्रांति चौक पुलिस स्टेशन का संपर्क,service_details,hindi
+क्रांति चौक पुलिस स्टेशन की जानकारी,service_details,hindi
+क्रांति चौक पुलिस स्टेशन कहाँ है,service_details,hindi
+क्रांति चौक पुलिस स्टेशन कैसे पहुँचे,service_details,hindi
+क्रांति चौक पुलिस स्टेशन के बारे में बताओ,service_details,hindi
+क्रांति चौक पुलिस स्टेशन का एड्रेस बताओ,service_details,hindi
+होटल ग्रैंड पैलेस का पता,service_details,hindi
+होटल ग्रैंड पैलेस का फोन नंबर,service_details,hindi
+होटल ग्रैंड पैलेस का लोकेशन,service_details,hindi
+होटल ग्रैंड पैलेस का संपर्क,service_details,hindi
+होटल ग्रैंड पैलेस की जानकारी,service_details,hindi
+होटल ग्रैंड पैलेस कहाँ है,service_details,hindi
+होटल ग्रैंड पैलेस कैसे पहुँचे,service_details,hindi
+होटल ग्रैंड पैलेस के बारे में बताओ,service_details,hindi
+होटल ग्रैंड पैलेस का एड्रेस बताओ,service_details,hindi
+मेडप्लस फार्मेसी का पता,service_details,hindi
+मेडप्लस फार्मेसी का फोन नंबर,service_details,hindi
+मेडप्लस फार्मेसी का लोकेशन,service_details,hindi
+मेडप्लस फार्मेसी का संपर्क,service_details,hindi
+मेडप्लस फार्मेसी की जानकारी,service_details,hindi
+मेडप्लस फार्मेसी कहाँ है,service_details,hindi
+मेडप्लस फार्मेसी कैसे पहुँचे,service_details,hindi
+मेडप्लस फार्मेसी के बारे में बताओ,service_details,hindi
+मेडप्लस फार्मेसी का एड्रेस बताओ,service_details,hindi
+बैंक ऑफ महाराष्ट्र का पता,service_details,hindi
+बैंक ऑफ महाराष्ट्र का फोन नंबर,service_details,hindi
+बैंक ऑफ महाराष्ट्र का लोकेशन,service_details,hindi
+बैंक ऑफ महाराष्ट्र का संपर्क,service_details,hindi
+बैंक ऑफ महाराष्ट्र की जानकारी,service_details,hindi
+बैंक ऑफ महाराष्ट्र कहाँ है,service_details,hindi
+बैंक ऑफ महाराष्ट्र कैसे पहुँचे,service_details,hindi
+बैंक ऑफ महाराष्ट्र के बारे में बताओ,service_details,hindi
+बैंक ऑफ महाराष्ट्र का एड्रेस बताओ,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल का पता,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल का फोन नंबर,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल का लोकेशन,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल का संपर्क,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल की जानकारी,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल कहाँ है,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल कैसे पहुँचे,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल के बारे में बताओ,service_details,hindi
+स्कॉलर्स इंटरनेशनल स्कूल का एड्रेस बताओ,service_details,hindi
+नमस्कार,greeting,marathi
+हॅलो,greeting,marathi
+शुभ सकाळ,greeting,marathi
+शुभ संध्याकाळ,greeting,marathi
+कसे आहात,greeting,marathi
+तू कसा आहेस,greeting,marathi
+हाय,greeting,marathi
+नमस्कार चॅटबॉट,greeting,marathi
+हॅलो असिस्टंट,greeting,marathi
+तू ऐकतोस का,greeting,marathi
+नमस्कार मित्रा,greeting,marathi
+हाय बॉट,greeting,marathi
+धन्यवाद,thanks,marathi
+खूप धन्यवाद,thanks,marathi
+मनापासून धन्यवाद,thanks,marathi
+माहितीसाठी धन्यवाद,thanks,marathi
+मदतीसाठी धन्यवाद,thanks,marathi
+थँक यू,thanks,marathi
+खूप खूप धन्यवाद,thanks,marathi
+आभारी आहे,thanks,marathi
+तुझ्या मदतीबद्दल धन्यवाद,thanks,marathi
+पुन्हा भेटू,goodbye,marathi
+निघतो,goodbye,marathi
+बाय,goodbye,marathi
+ठीक आहे बाय,goodbye,marathi
+नंतर बोलू,goodbye,marathi
+गुडबाय,goodbye,marathi
+धन्यवाद बाय,goodbye,marathi
+पुन्हा बोलूया,goodbye,marathi
+आत्ता जातो,goodbye,marathi
+नंतर भेटू,goodbye,marathi
+मदत करा,help,marathi
+मला मदत हवी आहे,help,marathi
+तू मला मदत करू शकतोस का,help,marathi
+कृपया मदत करा,help,marathi
+मला मार्गदर्शन हवे आहे,help,marathi
+मला सहाय्य हवे आहे,help,marathi
+कृपया मला गाईड करा,help,marathi
+माझ्या प्रश्नात मदत करा,help,marathi
+मला सपोर्ट हवा आहे,help,marathi
+कृपया सहाय्य करा,help,marathi
+तू कोण आहेस,chatbot_info,marathi
+तुझे नाव काय आहे,chatbot_info,marathi
+तू चॅटबॉट आहेस का,chatbot_info,marathi
+तू काय करू शकतोस,chatbot_info,marathi
+तुझ्याबद्दल सांग,chatbot_info,marathi
+तू एआय चॅटबॉट आहेस का,chatbot_info,marathi
+तुझ्या सुविधा काय आहेत,chatbot_info,marathi
+तू बहुभाषिक आहेस का,chatbot_info,marathi
+तू कोणत्या प्रकारचा असिस्टंट आहेस,chatbot_info,marathi
+तू कोणत्या सेवा देतोस,chatbot_info,marathi
+रिमाइंडर लाव,personal_assistant,marathi
+नोट्स उघड,personal_assistant,marathi
+आजचे काम सांग,personal_assistant,marathi
+रिमाइंडर तयार कर,personal_assistant,marathi
+माझे नोट्स दाखव,personal_assistant,marathi
+आजचे टास्क दाखव,personal_assistant,marathi
+ही नोंद सेव कर,personal_assistant,marathi
+माझे रिमाइंडर्स दाखव,personal_assistant,marathi
+नोटबुक उघड,personal_assistant,marathi
+पर्सनल असिस्टंटसारखी मदत कर,personal_assistant,marathi
+रुग्णालय यादी दाखवा,search_service,marathi
+रुग्णालय ची यादी द्या,search_service,marathi
+रुग्णालय जवळचे दाखवा,search_service,marathi
+रुग्णालय माहिती द्या,search_service,marathi
+रुग्णालय दाखवा,search_service,marathi
+रुग्णालय near me,search_service,marathi
+रुग्णालय कोठे आहे सांगा,search_service,marathi
+रुग्णालय जवळपास सांगा,search_service,marathi
+मला रुग्णालय हवे आहे,search_service,marathi
+जवळचे रुग्णालय सांगा,search_service,marathi
+रुग्णालय कुठे आहे,search_service,marathi
+हॉस्पिटल यादी दाखवा,search_service,marathi
+हॉस्पिटल ची यादी द्या,search_service,marathi
+हॉस्पिटल जवळचे दाखवा,search_service,marathi
+हॉस्पिटल माहिती द्या,search_service,marathi
+हॉस्पिटल दाखवा,search_service,marathi
+हॉस्पिटल near me,search_service,marathi
+हॉस्पिटल कोठे आहे सांगा,search_service,marathi
+हॉस्पिटल जवळपास सांगा,search_service,marathi
+मला हॉस्पिटल हवे आहे,search_service,marathi
+जवळचे हॉस्पिटल सांगा,search_service,marathi
+हॉस्पिटल कुठे आहे,search_service,marathi
+शाळा यादी दाखवा,search_service,marathi
+शाळा ची यादी द्या,search_service,marathi
+शाळा जवळचे दाखवा,search_service,marathi
+शाळा माहिती द्या,search_service,marathi
+शाळा दाखवा,search_service,marathi
+शाळा near me,search_service,marathi
+शाळा कोठे आहे सांगा,search_service,marathi
+शाळा जवळपास सांगा,search_service,marathi
+मला शाळा हवे आहे,search_service,marathi
+जवळचे शाळा सांगा,search_service,marathi
+शाळा कुठे आहे,search_service,marathi
+बँक यादी दाखवा,search_service,marathi
+बँक ची यादी द्या,search_service,marathi
+बँक जवळचे दाखवा,search_service,marathi
+बँक माहिती द्या,search_service,marathi
+बँक दाखवा,search_service,marathi
+बँक near me,search_service,marathi
+बँक कोठे आहे सांगा,search_service,marathi
+बँक जवळपास सांगा,search_service,marathi
+मला बँक हवे आहे,search_service,marathi
+जवळचे बँक सांगा,search_service,marathi
+बँक कुठे आहे,search_service,marathi
+पोलीस स्टेशन यादी दाखवा,search_service,marathi
+पोलीस स्टेशन ची यादी द्या,search_service,marathi
+पोलीस स्टेशन जवळचे दाखवा,search_service,marathi
+पोलीस स्टेशन माहिती द्या,search_service,marathi
+पोलीस स्टेशन दाखवा,search_service,marathi
+पोलीस स्टेशन near me,search_service,marathi
+पोलीस स्टेशन कोठे आहे सांगा,search_service,marathi
+पोलीस स्टेशन जवळपास सांगा,search_service,marathi
+मला पोलीस स्टेशन हवे आहे,search_service,marathi
+जवळचे पोलीस स्टेशन सांगा,search_service,marathi
+पोलीस स्टेशन कुठे आहे,search_service,marathi
+हॉटेल यादी दाखवा,search_service,marathi
+हॉटेल ची यादी द्या,search_service,marathi
+हॉटेल जवळचे दाखवा,search_service,marathi
+हॉटेल माहिती द्या,search_service,marathi
+हॉटेल दाखवा,search_service,marathi
+हॉटेल near me,search_service,marathi
+हॉटेल कोठे आहे सांगा,search_service,marathi
+हॉटेल जवळपास सांगा,search_service,marathi
+मला हॉटेल हवे आहे,search_service,marathi
+जवळचे हॉटेल सांगा,search_service,marathi
+हॉटेल कुठे आहे,search_service,marathi
+फार्मसी यादी दाखवा,search_service,marathi
+फार्मसी ची यादी द्या,search_service,marathi
+फार्मसी जवळचे दाखवा,search_service,marathi
+फार्मसी माहिती द्या,search_service,marathi
+फार्मसी दाखवा,search_service,marathi
+फार्मसी near me,search_service,marathi
+फार्मसी कोठे आहे सांगा,search_service,marathi
+फार्मसी जवळपास सांगा,search_service,marathi
+मला फार्मसी हवे आहे,search_service,marathi
+जवळचे फार्मसी सांगा,search_service,marathi
+फार्मसी कुठे आहे,search_service,marathi
+औषध दुकान यादी दाखवा,search_service,marathi
+औषध दुकान ची यादी द्या,search_service,marathi
+औषध दुकान जवळचे दाखवा,search_service,marathi
+औषध दुकान माहिती द्या,search_service,marathi
+औषध दुकान दाखवा,search_service,marathi
+औषध दुकान near me,search_service,marathi
+औषध दुकान कोठे आहे सांगा,search_service,marathi
+औषध दुकान जवळपास सांगा,search_service,marathi
+मला औषध दुकान हवे आहे,search_service,marathi
+जवळचे औषध दुकान सांगा,search_service,marathi
+औषध दुकान कुठे आहे,search_service,marathi
+सिटी केअर हॉस्पिटल चा पत्ता,service_details,marathi
+सिटी केअर हॉस्पिटल चा फोन नंबर,service_details,marathi
+सिटी केअर हॉस्पिटल चे लोकेशन,service_details,marathi
+सिटी केअर हॉस्पिटल ची माहिती,service_details,marathi
+सिटी केअर हॉस्पिटल कुठे आहे,service_details,marathi
+सिटी केअर हॉस्पिटल कसे जायचे,service_details,marathi
+सिटी केअर हॉस्पिटल संपर्क क्रमांक,service_details,marathi
+सिटी केअर हॉस्पिटल बद्दल माहिती द्या,service_details,marathi
+सिटी केअर हॉस्पिटल चा अॅड्रेस सांगा,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल चा पत्ता,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल चा फोन नंबर,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल चे लोकेशन,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल ची माहिती,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल कुठे आहे,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल कसे जायचे,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल संपर्क क्रमांक,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल बद्दल माहिती द्या,service_details,marathi
+सनराइज मल्टिस्पेशालिटी हॉस्पिटल चा अॅड्रेस सांगा,service_details,marathi
+अपोलो फार्मसी चा पत्ता,service_details,marathi
+अपोलो फार्मसी चा फोन नंबर,service_details,marathi
+अपोलो फार्मसी चे लोकेशन,service_details,marathi
+अपोलो फार्मसी ची माहिती,service_details,marathi
+अपोलो फार्मसी कुठे आहे,service_details,marathi
+अपोलो फार्मसी कसे जायचे,service_details,marathi
+अपोलो फार्मसी संपर्क क्रमांक,service_details,marathi
+अपोलो फार्मसी बद्दल माहिती द्या,service_details,marathi
+अपोलो फार्मसी चा अॅड्रेस सांगा,service_details,marathi
+औरंगाबाद पब्लिक स्कूल चा पत्ता,service_details,marathi
+औरंगाबाद पब्लिक स्कूल चा फोन नंबर,service_details,marathi
+औरंगाबाद पब्लिक स्कूल चे लोकेशन,service_details,marathi
+औरंगाबाद पब्लिक स्कूल ची माहिती,service_details,marathi
+औरंगाबाद पब्लिक स्कूल कुठे आहे,service_details,marathi
+औरंगाबाद पब्लिक स्कूल कसे जायचे,service_details,marathi
+औरंगाबाद पब्लिक स्कूल संपर्क क्रमांक,service_details,marathi
+औरंगाबाद पब्लिक स्कूल बद्दल माहिती द्या,service_details,marathi
+औरंगाबाद पब्लिक स्कूल चा अॅड्रेस सांगा,service_details,marathi
+स्टेट बँक ऑफ इंडिया चा पत्ता,service_details,marathi
+स्टेट बँक ऑफ इंडिया चा फोन नंबर,service_details,marathi
+स्टेट बँक ऑफ इंडिया चे लोकेशन,service_details,marathi
+स्टेट बँक ऑफ इंडिया ची माहिती,service_details,marathi
+स्टेट बँक ऑफ इंडिया कुठे आहे,service_details,marathi
+स्टेट बँक ऑफ इंडिया कसे जायचे,service_details,marathi
+स्टेट बँक ऑफ इंडिया संपर्क क्रमांक,service_details,marathi
+स्टेट बँक ऑफ इंडिया बद्दल माहिती द्या,service_details,marathi
+स्टेट बँक ऑफ इंडिया चा अॅड्रेस सांगा,service_details,marathi
+क्रांती चौक पोलीस स्टेशन चा पत्ता,service_details,marathi
+क्रांती चौक पोलीस स्टेशन चा फोन नंबर,service_details,marathi
+क्रांती चौक पोलीस स्टेशन चे लोकेशन,service_details,marathi
+क्रांती चौक पोलीस स्टेशन ची माहिती,service_details,marathi
+क्रांती चौक पोलीस स्टेशन कुठे आहे,service_details,marathi
+क्रांती चौक पोलीस स्टेशन कसे जायचे,service_details,marathi
+क्रांती चौक पोलीस स्टेशन संपर्क क्रमांक,service_details,marathi
+क्रांती चौक पोलीस स्टेशन बद्दल माहिती द्या,service_details,marathi
+क्रांती चौक पोलीस स्टेशन चा अॅड्रेस सांगा,service_details,marathi
+हॉटेल ग्रँड पॅलेस चा पत्ता,service_details,marathi
+हॉटेल ग्रँड पॅलेस चा फोन नंबर,service_details,marathi
+हॉटेल ग्रँड पॅलेस चे लोकेशन,service_details,marathi
+हॉटेल ग्रँड पॅलेस ची माहिती,service_details,marathi
+हॉटेल ग्रँड पॅलेस कुठे आहे,service_details,marathi
+हॉटेल ग्रँड पॅलेस कसे जायचे,service_details,marathi
+हॉटेल ग्रँड पॅलेस संपर्क क्रमांक,service_details,marathi
+हॉटेल ग्रँड पॅलेस बद्दल माहिती द्या,service_details,marathi
+हॉटेल ग्रँड पॅलेस चा अॅड्रेस सांगा,service_details,marathi
+मेडप्लस फार्मसी चा पत्ता,service_details,marathi
+मेडप्लस फार्मसी चा फोन नंबर,service_details,marathi
+मेडप्लस फार्मसी चे लोकेशन,service_details,marathi
+मेडप्लस फार्मसी ची माहिती,service_details,marathi
+मेडप्लस फार्मसी कुठे आहे,service_details,marathi
+मेडप्लस फार्मसी कसे जायचे,service_details,marathi
+मेडप्लस फार्मसी संपर्क क्रमांक,service_details,marathi
+मेडप्लस फार्मसी बद्दल माहिती द्या,service_details,marathi
+मेडप्लस फार्मसी चा अॅड्रेस सांगा,service_details,marathi
+बँक ऑफ महाराष्ट्र चा पत्ता,service_details,marathi
+बँक ऑफ महाराष्ट्र चा फोन नंबर,service_details,marathi
+बँक ऑफ महाराष्ट्र चे लोकेशन,service_details,marathi
+बँक ऑफ महाराष्ट्र ची माहिती,service_details,marathi
+बँक ऑफ महाराष्ट्र कुठे आहे,service_details,marathi
+बँक ऑफ महाराष्ट्र कसे जायचे,service_details,marathi
+बँक ऑफ महाराष्ट्र संपर्क क्रमांक,service_details,marathi
+बँक ऑफ महाराष्ट्र बद्दल माहिती द्या,service_details,marathi
+बँक ऑफ महाराष्ट्र चा अॅड्रेस सांगा,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल चा पत्ता,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल चा फोन नंबर,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल चे लोकेशन,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल ची माहिती,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल कुठे आहे,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल कसे जायचे,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल संपर्क क्रमांक,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल बद्दल माहिती द्या,service_details,marathi
+स्कॉलर्स इंटरनॅशनल स्कूल चा अॅड्रेस सांगा,service_details,marathi

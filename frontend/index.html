@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML BB ChatBot Popup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating Chat Button -->
+  <button id="chat-toggle" class="chat-toggle-btn">💬</button>
+
+  <!-- Chat Popup -->
+  <div id="chat-popup" class="chat-popup hidden">
+
+    <!-- Header -->
+    <div class="chat-header">
+      <div>
+        <h3>ML BB ChatBot</h3>
+        <p>Marathi | Hindi | English Assistant</p>
+      </div>
+      <button id="close-chat" class="close-btn">&times;</button>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="chat-info">
+      <span id="lang">Language : -</span>
+      <span id="intent">Intent : -</span>
+      <span id="confidence">Confidence : -</span>
+    </div>
+
+    <!-- Chat Body -->
+    <div id="chat-body" class="chat-body">
+      <!-- Initial messages will load from JS -->
+    </div>
+
+    <!-- Footer -->
+    <div class="chat-footer">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type your message..."
+        autocomplete="off"
+      />
+      <div class="chat-actions">
+        <button id="send-btn">Send</button>
+        <button id="clear-btn" class="clear-btn">Clear</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
