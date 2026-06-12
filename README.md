@@ -7,6 +7,9 @@ MultiLinguaAI is an intelligent multilingual conversational assistant developed 
 
 The project provides a modern AI chatbot interface with multilingual NLP processing, confidence scoring, service search capability, and interactive frontend UI.
 
+![Dashboard](profile/Chatbot.jpg)
+
+
 ---
 
 # 📌 Features
