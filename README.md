@@ -1,4 +1,4 @@
-````md
+ 
 # 🌍 MultiLinguaAI
 
 ## 🚀 AI-Powered Multilingual Conversational Assistant
@@ -287,6 +287,4 @@ OR use VS Code Live Server.
 # ⭐ GitHub
 
     If you like this project, give it a ⭐ on GitHub.
-
-```
-```
+ 
