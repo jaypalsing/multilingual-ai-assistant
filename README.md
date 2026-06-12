@@ -1,3 +1,4 @@
+````md
 # 🌍 MultiLinguaAI
 
 # 🚀 AI-Powered Multilingual Smart Service Assistant
@@ -16,13 +17,7 @@ The platform is specially designed for intelligent public information systems in
 * Address & Contact Information
 * Smart Service Mapping
 
-The project provides a modern AI chatbot dashboard with multilingual NLP processing, confidence scoring, smart service search, interactive UI, and responsive design.
-
----
-
-# 📸 Dashboard Preview
-
-![Dashboard](profile/Chatbot.jpg)
+The project provides a modern AI chatbot interface with multilingual NLP processing, confidence scoring, service search capability, and interactive frontend UI.
 
 ---
 
@@ -391,4 +386,7 @@ This project is developed for educational, research, NLP, AI application develop
 
 # ⭐ GitHub
 
-If you like this project, give it a ⭐ on GitHub and support the project.
+    If you like this project, give it a ⭐ on GitHub.
+
+```
+```
