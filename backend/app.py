@@ -4,13 +4,18 @@ from pydantic import BaseModel
 
 from backend.nlu import predict_intent
 
+ 
 from backend.service_search import (
+
+    CATEGORY_KEYWORDS,
     detect_category,
     get_services_by_category,
     get_service_by_name,
     format_service_list,
-    format_service_details,
+    format_service_details
 )
+ 
+
 
 # =========================================================
 # FASTAPI INITIALIZATION
@@ -303,7 +308,26 @@ def generate_reply(language: str, intent: str) -> str:
 
             "Hindi/Marathi":
                 "कृपया नाव / नाम सांगा / बताइए।"
+        },
+
+
+        "how_are_you": {
+
+            "English":
+                "I am doing great! How can I help you today?",
+
+            "Hindi":
+                "मैं बिल्कुल ठीक हूँ। मैं आपकी कैसे मदद कर सकता हूँ?",
+
+            "Marathi":
+                "मी छान आहे. मी तुम्हाला कशी मदत करू शकतो?",
+
+            "Hindi/Marathi":
+                "मी / मैं ठीक आहे / हूँ।"
         }
+
+
+
     }
 
     if intent in replies:
@@ -346,6 +370,9 @@ def health_check():
         "version": "1.0.0"
     }
 
+
+
+ 
 # =========================================================
 # CHAT API
 # =========================================================
@@ -359,25 +386,66 @@ def chat(request: ChatRequest):
     try:
 
         # =================================================
-        # DETECT LANGUAGE
+        # NLP PREDICTION
         # =================================================
 
-        language = detect_language(message)
+        prediction = predict_intent(message)
+
+        intent = prediction["intent"]
+
+        confidence = prediction["confidence"]
+
+        language_code = prediction["language"]
 
         # =================================================
-        # DIRECT SERVICE NAME MATCH
+        # LANGUAGE FORMAT
         # =================================================
 
-        matched_service = get_service_by_name(message)
+        if language_code == "hi":
 
-        if matched_service:
+            language = "Hindi"
+
+        elif language_code == "mr":
+
+            language = "Marathi"
+
+        else:
+
+            language = "English"
+
+        lang_code = (
+            "mr" if language == "Marathi"
+            else "hi" if language == "Hindi"
+            else "en"
+        )
+
+        # =================================================
+        # COMMON COMMUNICATION
+        # =================================================
+
+        if intent in [
+
+            "greeting",
+            "how_are_you",
+            "thanks",
+            "goodbye",
+            "help",
+            "chatbot_info",
+            "personal_assistant"
+
+        ]:
 
             return {
+
                 "message": message,
                 "language": language,
-                "intent": "service_details",
-                "confidence": 0.95,
-                "reply": format_service_details(matched_service)
+                "intent": intent,
+                "confidence": round(confidence, 2),
+
+                "reply": generate_reply(
+                    language,
+                    intent
+                )
             }
 
         # =================================================
@@ -401,15 +469,19 @@ def chat(request: ChatRequest):
                 selected_service = last_services[ref_index]
 
                 return {
+
                     "message": message,
                     "language": language,
                     "intent": "service_details",
                     "confidence": 0.96,
+
                     "reply": format_service_details(
-                        selected_service
+                        selected_service,
+                        lang_code
                     )
                 }
 
+ 
         # =================================================
         # CATEGORY SEARCH
         # =================================================
@@ -418,68 +490,130 @@ def chat(request: ChatRequest):
 
         if matched_category:
 
+            # =============================================
+            # DETECT TOP NUMBER
+            # =============================================
+
+            limit = 10
+
+            import re
+
+            number_match = re.search(r"\d+", message)
+
+            if number_match:
+
+                limit = int(number_match.group())
+
+                # Safety limit
+                limit = min(limit, 20)
+
             services = get_services_by_category(
-                matched_category
+
+                matched_category,
+
+                limit=limit
             )
 
             conversation_memory["last_services"] = services
 
             return {
+
+                "message": message,
+
+                "language": language,
+
+                "intent": "search_service",
+
+                "confidence": 0.93,
+
+                "reply": format_service_list(
+
+                    matched_category,
+
+                    services,
+
+                    lang_code
+                )
+            }
+        
+
+        # =================================================
+        # DIRECT SERVICE SEARCH
+        # =================================================
+
+        matched_service = get_service_by_name(message)
+
+        if matched_service:
+
+            return {
+
                 "message": message,
                 "language": language,
-                "intent": "search_service",
-                "confidence": 0.93,
-                "reply": format_service_list(
-                    matched_category,
-                    services
+                "intent": "service_details",
+                "confidence": 0.95,
+
+                "reply": format_service_details(
+
+                    matched_service,
+                    lang_code
                 )
             }
 
         # =================================================
-        # ML MODEL PREDICTION
-        # =================================================
-
-        intent, confidence = predict_intent(message)
-
-        reply = generate_reply(language, intent)
-
-        # =================================================
-        # LOW CONFIDENCE HANDLING
+        # LOW CONFIDENCE
         # =================================================
 
         if confidence < 0.25:
 
+            unknown_reply = {
+
+                "English":
+                    "Sorry, I could not understand your request clearly. Please ask about hospitals, schools, colleges, hotels, pharmacies, or services.",
+
+                "Hindi":
+                    "माफ़ कीजिए, मैं आपका प्रश्न समझ नहीं पाया। कृपया अस्पताल, स्कूल, कॉलेज, होटल या सेवाओं के बारे में पूछें।",
+
+                "Marathi":
+                    "माफ करा, मला तुमचा प्रश्न समजला नाही. कृपया हॉस्पिटल, शाळा, कॉलेज, हॉटेल किंवा सेवांबद्दल विचारा."
+            }
+
             return {
+
                 "message": message,
                 "language": language,
                 "intent": "unknown",
                 "confidence": round(confidence, 2),
-                "reply": (
-                    "Sorry, I could not understand your request clearly. "
-                    "Please ask about hospitals, schools, banks, hotels, "
-                    "pharmacies, police stations, or chatbot assistance."
+
+                "reply": unknown_reply.get(
+                    language,
+                    unknown_reply["English"]
                 )
             }
 
         # =================================================
-        # SUCCESS RESPONSE
+        # DEFAULT FALLBACK
         # =================================================
 
         return {
+
             "message": message,
             "language": language,
             "intent": intent,
             "confidence": round(confidence, 2),
-            "reply": reply
+
+            "reply":
+                "I understood your request. More intelligent response generation will be added soon."
         }
 
     except Exception as e:
 
         return {
+
             "message": message,
             "language": "Error",
             "intent": "Error",
             "confidence": 0.0,
+
             "reply": f"Backend error: {str(e)}"
         }
  

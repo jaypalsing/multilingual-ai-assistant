@@ -1,4 +1,10 @@
 [
+   
+
+
+
+
+ 
   {
     "id": 1,
     "category": "hospital",
@@ -13,42 +19,329 @@
     "name": "Sunrise Multispeciality Hospital",
     "address": "Jalna Road, Aurangabad, Maharashtra",
     "phone": "+91-9876500000",
-    "location": "https://maps.google.com/?q=Sunrise+Multispeciality+Hospital+Aurangabad"
+    "location": "https://maps.google.com/?q=Sunrise+Hospital+Aurangabad"
   },
   {
     "id": 3,
-    "category": "school",
-    "name": "Aurangabad Public School",
+    "category": "hospital",
+    "name": "MGM Hospital",
     "address": "CIDCO, Aurangabad, Maharashtra",
-    "phone": "+91-9123456789",
-    "location": "https://maps.google.com/?q=Aurangabad+Public+School"
+    "phone": "+91-9123451111",
+    "location": "https://maps.google.com/?q=MGM+Hospital+Aurangabad"
   },
   {
     "id": 4,
-    "category": "school",
-    "name": "Scholars International School",
-    "address": "Beed Bypass, Aurangabad, Maharashtra",
-    "phone": "+91-9988771111",
-    "location": "https://maps.google.com/?q=Scholars+International+School+Aurangabad"
+    "category": "hospital",
+    "name": "Kamalnayan Bajaj Hospital",
+    "address": "Satara Parisar, Aurangabad, Maharashtra",
+    "phone": "+91-9123452222",
+    "location": "https://maps.google.com/?q=Kamalnayan+Bajaj+Hospital+Aurangabad"
   },
   {
     "id": 5,
+    "category": "hospital",
+    "name": "Sigma Hospital",
+    "address": "Garkheda, Aurangabad, Maharashtra",
+    "phone": "+91-9123453333",
+    "location": "https://maps.google.com/?q=Sigma+Hospital+Aurangabad"
+  },
+  {
+    "id": 6,
+    "category": "hospital",
+    "name": "United CIIGMA Hospital",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9123454444",
+    "location": "https://maps.google.com/?q=United+CIIGMA+Hospital+Aurangabad"
+  },
+  {
+    "id": 7,
+    "category": "hospital",
+    "name": "Government Medical College Hospital",
+    "address": "Panchakki Road, Aurangabad, Maharashtra",
+    "phone": "+91-9123455555",
+    "location": "https://maps.google.com/?q=GMCH+Aurangabad"
+  },
+  {
+    "id": 8,
+    "category": "hospital",
+    "name": "Shri Sai Hospital",
+    "address": "Beed Bypass, Aurangabad, Maharashtra",
+    "phone": "+91-9123456666",
+    "location": "https://maps.google.com/?q=Shri+Sai+Hospital+Aurangabad"
+  },
+  {
+    "id": 9,
+    "category": "hospital",
+    "name": "LifeLine Hospital",
+    "address": "Kranti Chowk, Aurangabad, Maharashtra",
+    "phone": "+91-9123457777",
+    "location": "https://maps.google.com/?q=LifeLine+Hospital+Aurangabad"
+  },
+  {
+    "id": 10,
+    "category": "hospital",
+    "name": "Cancer Care Hospital",
+    "address": "Jalna Road, Aurangabad, Maharashtra",
+    "phone": "+91-9123458888",
+    "location": "https://maps.google.com/?q=Cancer+Care+Hospital+Aurangabad"
+  },
+
+  {
+    "id": 11,
+    "category": "school",
+    "name": "Aurangabad Public School",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9988771111",
+    "location": "https://maps.google.com/?q=Aurangabad+Public+School"
+  },
+  {
+    "id": 12,
+    "category": "school",
+    "name": "Podar International School",
+    "address": "Garkheda, Aurangabad, Maharashtra",
+    "phone": "+91-9988772222",
+    "location": "https://maps.google.com/?q=Podar+School+Aurangabad"
+  },
+  {
+    "id": 13,
+    "category": "school",
+    "name": "Scholars International School",
+    "address": "Beed Bypass, Aurangabad, Maharashtra",
+    "phone": "+91-9988773333",
+    "location": "https://maps.google.com/?q=Scholars+School+Aurangabad"
+  },
+  {
+    "id": 14,
+    "category": "school",
+    "name": "Delhi Public School",
+    "address": "Paithan Road, Aurangabad, Maharashtra",
+    "phone": "+91-9988774444",
+    "location": "https://maps.google.com/?q=DPS+Aurangabad"
+  },
+  {
+    "id": 15,
+    "category": "school",
+    "name": "Nath Valley School",
+    "address": "Satara Parisar, Aurangabad, Maharashtra",
+    "phone": "+91-9988775555",
+    "location": "https://maps.google.com/?q=Nath+Valley+School"
+  },
+
+  {
+    "id": 16,
+    "category": "college",
+    "name": "JNEC College",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9870001111",
+    "location": "https://maps.google.com/?q=JNEC+College+Aurangabad"
+  },
+  {
+    "id": 17,
+    "category": "college",
+    "name": "Government Engineering College",
+    "address": "Railway Station Road, Aurangabad, Maharashtra",
+    "phone": "+91-9870002222",
+    "location": "https://maps.google.com/?q=GECA+Aurangabad"
+  },
+  {
+    "id": 18,
+    "category": "college",
+    "name": "MGM Engineering College",
+    "address": "N-6 CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9870003333",
+    "location": "https://maps.google.com/?q=MGM+Engineering+College"
+  },
+  {
+    "id": 19,
+    "category": "college",
+    "name": "Deogiri College",
+    "address": "Station Road, Aurangabad, Maharashtra",
+    "phone": "+91-9870004444",
+    "location": "https://maps.google.com/?q=Deogiri+College+Aurangabad"
+  },
+  {
+    "id": 20,
+    "category": "college",
+    "name": "Dr. BAMU University",
+    "address": "University Campus, Aurangabad, Maharashtra",
+    "phone": "+91-9870005555",
+    "location": "https://maps.google.com/?q=BAMU+Aurangabad"
+  },
+ 
+
+  {
+    "id": 21,
+    "category": "school",
+    "name": "Ryan International School",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9988776661",
+    "location": "https://maps.google.com/?q=Ryan+International+School+Aurangabad"
+  },
+  {
+    "id": 22,
+    "category": "school",
+    "name": "Cambridge School",
+    "address": "Usmanpura, Aurangabad, Maharashtra",
+    "phone": "+91-9988776662",
+    "location": "https://maps.google.com/?q=Cambridge+School+Aurangabad"
+  },
+  {
+    "id": 23,
+    "category": "school",
+    "name": "Little Flower School",
+    "address": "Kranti Chowk, Aurangabad, Maharashtra",
+    "phone": "+91-9988776663",
+    "location": "https://maps.google.com/?q=Little+Flower+School+Aurangabad"
+  },
+  {
+    "id": 24,
+    "category": "school",
+    "name": "Holy Cross School",
+    "address": "Jalna Road, Aurangabad, Maharashtra",
+    "phone": "+91-9988776664",
+    "location": "https://maps.google.com/?q=Holy+Cross+School+Aurangabad"
+  },
+  {
+    "id": 25,
+    "category": "school",
+    "name": "Mount Carmel School",
+    "address": "Beed Bypass, Aurangabad, Maharashtra",
+    "phone": "+91-9988776665",
+    "location": "https://maps.google.com/?q=Mount+Carmel+School+Aurangabad"
+  },
+
+
+
+
+
+
+  {
+    "id": 36,
+    "category": "pharmacy",
+    "name": "Apollo Pharmacy",
+    "address": "Nirala Bazar, Aurangabad, Maharashtra",
+    "phone": "+91-9555511111",
+    "location": "https://maps.google.com/?q=Apollo+Pharmacy+Aurangabad"
+  },
+  {
+    "id": 37,
+    "category": "pharmacy",
+    "name": "MedPlus Pharmacy",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9555522222",
+    "location": "https://maps.google.com/?q=MedPlus+Aurangabad"
+  },
+  {
+    "id": 38,
+    "category": "pharmacy",
+    "name": "Wellness Forever",
+    "address": "Usmanpura, Aurangabad, Maharashtra",
+    "phone": "+91-9555533333",
+    "location": "https://maps.google.com/?q=Wellness+Forever+Aurangabad"
+  },
+  {
+    "id": 39,
+    "category": "pharmacy",
+    "name": "Care Medical Store",
+    "address": "Kranti Chowk, Aurangabad, Maharashtra",
+    "phone": "+91-9555544444",
+    "location": "https://maps.google.com/?q=Care+Medical+Store+Aurangabad"
+  },
+  {
+    "id": 40,
+    "category": "pharmacy",
+    "name": "LifeCare Pharmacy",
+    "address": "Beed Bypass, Aurangabad, Maharashtra",
+    "phone": "+91-9555555555",
+    "location": "https://maps.google.com/?q=LifeCare+Pharmacy+Aurangabad"
+  },
+  {
+    "id": 41,
+    "category": "pharmacy",
+    "name": "Shree Medical",
+    "address": "Satara Parisar, Aurangabad, Maharashtra",
+    "phone": "+91-9555566666",
+    "location": "https://maps.google.com/?q=Shree+Medical+Aurangabad"
+  },
+  {
+    "id": 42,
+    "category": "pharmacy",
+    "name": "HealthPlus Pharmacy",
+    "address": "Jalna Road, Aurangabad, Maharashtra",
+    "phone": "+91-9555577777",
+    "location": "https://maps.google.com/?q=HealthPlus+Pharmacy+Aurangabad"
+  },
+  {
+    "id": 43,
+    "category": "pharmacy",
+    "name": "New India Medical",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9555588888",
+    "location": "https://maps.google.com/?q=New+India+Medical+Aurangabad"
+  },
+  {
+    "id": 44,
+    "category": "pharmacy",
+    "name": "Sai Medical Store",
+    "address": "Station Road, Aurangabad, Maharashtra",
+    "phone": "+91-9555599999",
+    "location": "https://maps.google.com/?q=Sai+Medical+Store+Aurangabad"
+  },
+  {
+    "id": 45,
+    "category": "pharmacy",
+    "name": "City Pharmacy",
+    "address": "Town Center, Aurangabad, Maharashtra",
+    "phone": "+91-9555500000",
+    "location": "https://maps.google.com/?q=City+Pharmacy+Aurangabad"
+  },  
+
+
+
+    
+  {
+    "id": 46,
     "category": "bank",
     "name": "State Bank of India",
     "address": "Kranti Chowk, Aurangabad, Maharashtra",
     "phone": "+91-9988776655",
-    "location": "https://maps.google.com/?q=State+Bank+of+India+Kranti+Chowk+Aurangabad"
+    "location": "https://maps.google.com/?q=SBI+Aurangabad"
   },
   {
-    "id": 6,
+    "id": 47,
     "category": "bank",
     "name": "Bank of Maharashtra",
     "address": "Usmanpura, Aurangabad, Maharashtra",
     "phone": "+91-9765432100",
-    "location": "https://maps.google.com/?q=Bank+of+Maharashtra+Usmanpura+Aurangabad"
+    "location": "https://maps.google.com/?q=Bank+of+Maharashtra+Aurangabad"
   },
   {
-    "id": 7,
+    "id": 48,
+    "category": "bank",
+    "name": "HDFC Bank",
+    "address": "CIDCO, Aurangabad, Maharashtra",
+    "phone": "+91-9765432101",
+    "location": "https://maps.google.com/?q=HDFC+Bank+Aurangabad"
+  },
+  {
+    "id": 49,
+    "category": "bank",
+    "name": "ICICI Bank",
+    "address": "Jalna Road, Aurangabad, Maharashtra",
+    "phone": "+91-9765432102",
+    "location": "https://maps.google.com/?q=ICICI+Bank+Aurangabad"
+  },
+  {
+    "id": 50,
+    "category": "bank",
+    "name": "Axis Bank",
+    "address": "Town Center, Aurangabad, Maharashtra",
+    "phone": "+91-9765432103",
+    "location": "https://maps.google.com/?q=Axis+Bank+Aurangabad"
+  },
+
+  {
+    "id": 51,
     "category": "police_station",
     "name": "Kranti Chowk Police Station",
     "address": "Kranti Chowk, Aurangabad, Maharashtra",
@@ -56,7 +349,7 @@
     "location": "https://maps.google.com/?q=Kranti+Chowk+Police+Station+Aurangabad"
   },
   {
-    "id": 8,
+    "id": 52,
     "category": "police_station",
     "name": "CIDCO Police Station",
     "address": "CIDCO, Aurangabad, Maharashtra",
@@ -64,35 +357,27 @@
     "location": "https://maps.google.com/?q=CIDCO+Police+Station+Aurangabad"
   },
   {
-    "id": 9,
-    "category": "hotel",
-    "name": "Hotel Grand Palace",
-    "address": "Station Road, Aurangabad, Maharashtra",
-    "phone": "+91-9000011111",
-    "location": "https://maps.google.com/?q=Hotel+Grand+Palace+Aurangabad"
+    "id": 53,
+    "category": "police_station",
+    "name": "Begumpura Police Station",
+    "address": "Begumpura, Aurangabad, Maharashtra",
+    "phone": "+91-9400003333",
+    "location": "https://maps.google.com/?q=Begumpura+Police+Station+Aurangabad"
   },
   {
-    "id": 10,
-    "category": "hotel",
-    "name": "Hotel Royal Executive",
-    "address": "Jalna Road, Aurangabad, Maharashtra",
-    "phone": "+91-9000022222",
-    "location": "https://maps.google.com/?q=Hotel+Royal+Executive+Aurangabad"
+    "id": 54,
+    "category": "police_station",
+    "name": "Osmanpura Police Station",
+    "address": "Osmanpura, Aurangabad, Maharashtra",
+    "phone": "+91-9400004444",
+    "location": "https://maps.google.com/?q=Osmanpura+Police+Station+Aurangabad"
   },
   {
-    "id": 11,
-    "category": "pharmacy",
-    "name": "Apollo Pharmacy",
-    "address": "Nirala Bazar, Aurangabad, Maharashtra",
-    "phone": "+91-9555511111",
-    "location": "https://maps.google.com/?q=Apollo+Pharmacy+Nirala+Bazar+Aurangabad"
-  },
-  {
-    "id": 12,
-    "category": "pharmacy",
-    "name": "MedPlus Pharmacy",
-    "address": "CIDCO, Aurangabad, Maharashtra",
-    "phone": "+91-9555522222",
-    "location": "https://maps.google.com/?q=MedPlus+Pharmacy+CIDCO+Aurangabad"
+    "id": 55,
+    "category": "police_station",
+    "name": "Satara Police Station",
+    "address": "Satara Parisar, Aurangabad, Maharashtra",
+    "phone": "+91-9400005555",
+    "location": "https://maps.google.com/?q=Satara+Police+Station+Aurangabad"
   }
 ]

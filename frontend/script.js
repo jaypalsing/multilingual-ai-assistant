@@ -186,21 +186,114 @@ function addUserMessage(message) {
 // BOT MESSAGE
 // =========================================
 
+ 
+// =========================================
+// BOT MESSAGE
+// =========================================
+
 function addBotMessage(message) {
 
     removeTypingIndicator();
 
-    const row = createMessageRow(
-        "bot",
-        message,
-        getCurrentTime()
-    );
+    // =====================================
+    // MESSAGE ROW
+    // =====================================
+
+    const row = document.createElement("div");
+
+    row.className = "message-row bot";
+
+    // =====================================
+    // AVATAR
+    // =====================================
+
+    const avatar = document.createElement("div");
+
+    avatar.className = "avatar bot-avatar";
+
+    avatar.textContent = "🤖";
+
+    // =====================================
+    // CONTENT
+    // =====================================
+
+    const content = document.createElement("div");
+
+    content.className = "message-content";
+
+    // =====================================
+    // MODERN CARD
+    // =====================================
+
+    const bubble = document.createElement("div");
+
+    bubble.className = "bot-message modern-bot-card";
+
+    // =====================================
+    // FORMAT MESSAGE
+    // =====================================
+
+    let formattedMessage = message
+
+        .replace(/\n/g, "<br>")
+
+        // Google Maps Link
+        .replace(
+            /(https?:\/\/[^\s]+)/g,
+            `
+            <a href="$1"
+               target="_blank"
+               class="map-link">
+
+               📍 Open Map
+
+            </a>
+            `
+        );
+
+    bubble.innerHTML = `
+
+        <div class="bot-card-header">
+
+            🤖 MultiLinguaAI
+
+        </div>
+
+        <div class="bot-card-body">
+
+            ${formattedMessage}
+
+        </div>
+    `;
+
+    // =====================================
+    // TIMESTAMP
+    // =====================================
+
+    const timestamp = document.createElement("div");
+
+    timestamp.className = "timestamp";
+
+    timestamp.textContent = getCurrentTime();
+
+    // =====================================
+    // APPEND
+    // =====================================
+
+    content.appendChild(bubble);
+
+    content.appendChild(timestamp);
+
+    row.appendChild(avatar);
+
+    row.appendChild(content);
 
     chatBody.appendChild(row);
 
     scrollToBottom();
-
 }
+ 
+
 
 // =========================================
 // SHOW TYPING

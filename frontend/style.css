@@ -854,5 +854,127 @@ body::after{
         right: 15px;
         bottom: 15px;
     }
+
+
+    
+    /* =========================================
+    MODERN BOT CARD
+    ========================================= */
+
+    .modern-bot-card {
+
+        background:
+            linear-gradient(
+                135deg,
+                rgba(255,255,255,0.08),
+                rgba(255,255,255,0.03)
+            );
+
+        border:
+            1px solid rgba(255,255,255,0.08);
+
+        border-radius: 18px;
+
+        padding: 14px;
+
+        backdrop-filter: blur(10px);
+
+        box-shadow:
+            0 4px 20px rgba(0,0,0,0.25);
+
+        animation:
+            fadeIn 0.3s ease;
+    }
+
+    /* =========================================
+    BOT CARD HEADER
+    ========================================= */
+
+    .bot-card-header {
+
+        font-size: 13px;
+
+        font-weight: 700;
+
+        color: #7ec8ff;
+
+        margin-bottom: 10px;
+
+        padding-bottom: 6px;
+
+        border-bottom:
+            1px solid rgba(255,255,255,0.08);
+    }
+
+    /* =========================================
+    BOT CARD BODY
+    ========================================= */
+
+    .bot-card-body {
+
+        font-size: 14px;
+
+        line-height: 1.9;
+
+        color: #ffffff;
+
+        word-break: break-word;
+    }
+
+    /* =========================================
+    MAP LINK
+    ========================================= */
+
+    .map-link {
+
+        display: inline-block;
+
+        margin-top: 10px;
+
+        color: #58d7ff;
+
+        font-weight: 600;
+
+        text-decoration: none;
+
+        transition: 0.3s;
+    }
+
+    .map-link:hover {
+
+        color: #ffffff;
+    }
+
+    /* =========================================
+    ANIMATION
+    ========================================= */
+
+    @keyframes fadeIn {
+
+        from {
+
+            opacity: 0;
+
+            transform: translateY(10px);
+        }
+
+        to {
+
+            opacity: 1;
+
+            transform: translateY(0);
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
 }
  
